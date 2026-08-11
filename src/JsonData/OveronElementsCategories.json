@@ -1,0 +1,127 @@
+﻿[
+  {
+    "category": "Movement",
+    "actions": [
+      {
+        "name": "Walk",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Climb",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Swim",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
+      }
+    ]
+  },
+  {
+    "category": "Action",
+    "actions": [
+      {
+        "name": "Walk",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Climb",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Swim",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      }
+    ]
+  },
+  {
+    "category": "Bonus Action",
+    "actions": [
+      {
+        "name": "Walk",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Climb",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Swim",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      }
+    ]
+  },
+  {
+    "category": "Reaction",
+    "actions": [
+      {
+        "name": "Walk",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Climb",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Swim",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      }
+    ]
+  },
+  {
+    "category": "Condition",
+    "actions": [
+      {
+        "name": "Walk",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Climb",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Swim",
+        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      }
+    ]
+  }
+]
