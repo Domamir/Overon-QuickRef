@@ -1,23 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
+import ElementsGroups from "./JsonData/ElementsGroups.json";
+import ElementsCollection from "./ElementsCollection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="App-main">
+          {ElementsGroups.elementsGroups.map((group, index) => (
+              <ElementsCollection key={index} name={group.name} restriction={group.restriction} description={group.description} />
+          ))}
+      </main>
     </div>
   );
 }
