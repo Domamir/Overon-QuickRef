@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+    text-align: center;
+    min-width: 400px;
+    min-height: 100vh;
 }
 
 .App-main {
@@ -11,4 +13,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+    gap: 10px;
+    padding: 20px 0 20px 0;
 }

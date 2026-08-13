@@ -1,0 +1,46 @@
+﻿.ElementCard {
+    min-width: 150px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonRow {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: default;
+    pointer-events: auto;
+}
+
+.buttonRow:hover {
+    cursor: default;
+}
+
+.square-image {
+    aspect-ratio: 1 / 1;
+    max-width: 60px;
+    width: 80%;
+    min-width: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: currentColor;
+}
+
+.ElementName {
+    font-weight: 600;
+    height: 50%;
+    align-self: flex-start
+}
+
+.ElementShortDescription {
+    height: 50%;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+    font-size: 0.8em;
+}

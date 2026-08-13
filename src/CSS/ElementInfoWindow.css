@@ -1,0 +1,62 @@
+﻿.elementInfoWindowOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 100, 100, 0.5);
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.elementInfoWindowBody {
+    width: 50%;
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
+    max-height: 300px;
+    min-height: 100px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.titleRow {
+    height: 15%;
+    width: 100%;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: calc(10px + 2vmin);
+}
+
+.descriptionRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-align: start;
+    padding-top: 10px;
+}
+
+.shortDescriptionBody {
+    margin-bottom: 10px;
+    font-size: calc(5px + 2vmin);
+    line-height: 1.4;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.longDescriptionBody {
+    font-size: calc(5px + 2vmin);
+    line-height: 1.4;
+    margin-top: 10px;
+}

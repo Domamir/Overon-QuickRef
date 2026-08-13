@@ -1,5 +1,52 @@
 ﻿.ElementsCollection{
-    background-color: aliceblue;
-    color: black;
-    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 98%;
+    color: white;
+    min-height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 400px;
+}
+
+.container-fluid{
+    height: 100%;
+    width: 100%;
+}
+
+.TitleRow {
+    display: flex;
+    height: 20%;
+}
+
+.CollectionBody {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    min-height: 140px;
+    background-color: white;
+    color: darkred;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: calc(5px + 2vmin);
+}
+
+.CollectionDescription {
+    font-size: calc(10px + 1vmin);
+    height: 20%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.CollectionElements {
+    display: grid;
+    flex-wrap: wrap;
+    font-size: calc(10px + 1vmin);
+    height: 80%;
+    width: 100%;
 }

@@ -4,22 +4,37 @@
     "actions": [
       {
         "name": "Walk",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "shortDescription": "Cost: half movement speed",
         "longDescription": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
         "name": "Run",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "shortDescription": "Cost: half movement speed",
         "long-description": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
-        "name": "Climb",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "name": "Walk",
+        "shortDescription": "Cost: half movement speed",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "Cost: half movement speed",
         "long-description": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
-        "name": "Swim",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "name": "Run",
+        "shortDescription": "Cost: half movement speed",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Walk",
+        "shortDescription": "Cost: half movement speed",
+        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+      },
+      {
+        "name": "Run",
+        "shortDescription": "Cost: half movement speed",
         "long-description": "You can move at any time during your turn (before, after, or during actions)."
       }
     ]
@@ -29,23 +44,13 @@
     "actions": [
       {
         "name": "Walk",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "shortDescription": "Cost: half movement speed",
         "longDescription": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
         "name": "Run",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Climb",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Swim",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+        "shortDescription": "Cost: half movement speed",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
       }
     ]
   },
@@ -54,23 +59,13 @@
     "actions": [
       {
         "name": "Walk",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "shortDescription": "Cost: half movement speed",
         "longDescription": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
         "name": "Run",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Climb",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Swim",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+        "shortDescription": "Cost: half movement speed",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
       }
     ]
   },
@@ -79,23 +74,13 @@
     "actions": [
       {
         "name": "Walk",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "shortDescription": "Cost: half movement speed",
         "longDescription": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
         "name": "Run",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Climb",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Swim",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+        "shortDescription": "Cost: half movement speed",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
       }
     ]
   },
@@ -104,23 +89,13 @@
     "actions": [
       {
         "name": "Walk",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
+        "shortDescription": "Cost: half movement speed",
         "longDescription": "You can move at any time during your turn (before, after, or during actions)."
       },
       {
         "name": "Run",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Climb",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
-      },
-      {
-        "name": "Swim",
-        "shortDescription": "You can move at any time during your turn (before, after, or during actions).",
-        "longDescription": "You can move at any time during your turn (before, after, or during actions)."
+        "shortDescription": "Cost: half movement speed",
+        "long-description": "You can move at any time during your turn (before, after, or during actions)."
       }
     ]
   }
