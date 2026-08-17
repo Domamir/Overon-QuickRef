@@ -11,14 +11,16 @@ function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescri
 
     return (
         <div className="elementInfoWindowOverlay" onClick={onClose}>
-            <div className="elementInfoWindowBody d-flex flex-column align-items-center justify-content-center" style={{ backgroundColor}}  onClick={(e) => e.stopPropagation()}>
-                <div className="titleRow row">
+            <div className="elementInfoWindowBody" style={{ backgroundColor}}  onClick={(e) => e.stopPropagation()}>
+                <div className="titleRow text-start ps-2">
                     {name}
                 </div>
-                <div className="descriptionRow row d-flex flex-column px-2">
-                    <div className="shortDescriptionBody ps-1">
-                        {shortDescription}
-                    </div>
+                <div className="descriptionRow px-2">
+                    {shortDescription?.trim() && (
+                        <div className="shortDescriptionBody ps-1">
+                            {shortDescription}
+                        </div>
+                    )}
                     <div className="longDescriptionBody ps-1">
                         {longDescription}
                     </div>
