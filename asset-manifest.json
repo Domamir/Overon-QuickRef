@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/overon-quickref/static/css/main.4d43f7d4.css",
+    "main.js": "/overon-quickref/static/js/main.e7bb9f3f.js",
+    "static/js/453.802eaaba.chunk.js": "/overon-quickref/static/js/453.802eaaba.chunk.js",
+    "static/media/logo.svg": "/overon-quickref/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/overon-quickref/index.html",
+    "main.4d43f7d4.css.map": "/overon-quickref/static/css/main.4d43f7d4.css.map",
+    "main.e7bb9f3f.js.map": "/overon-quickref/static/js/main.e7bb9f3f.js.map",
+    "453.802eaaba.chunk.js.map": "/overon-quickref/static/js/453.802eaaba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d43f7d4.css",
+    "static/js/main.e7bb9f3f.js"
+  ]
+}
