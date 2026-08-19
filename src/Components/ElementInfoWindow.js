@@ -18,7 +18,7 @@ function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescri
                 <div className="descriptionRow px-2">
                     {shortDescription?.trim() && (
                         <div className="shortDescriptionBody ps-1">
-                            {shortDescription}
+                            Cost: {shortDescription}
                         </div>
                     )}
                     <div className="longDescriptionBody ps-1">

@@ -3,32 +3,37 @@
     {
       "name": "Movement",
       "groupColor": "#079138",
-      "restriction": "limited by movement speed",
-      "description": "You can move at any time during your turn (before, after, or during actions)."
+      "restriction": "Limited by movement speed",
+      "description": "You can move at any time during your turn (before, after, or during actions).",
+      "iconPath": "speed"
     },
     {
       "name": "Action",
       "groupColor": "#a60202",
       "restriction": "1/turn",
-      "description": "You can also interact with one object or feature of the environment for free."
+      "description": "You can also interact with one object or feature of the environment for free.",
+      "iconPath": "swords"
     },
     {
       "name": "Bonus Action",
       "groupColor": "#4287f5",
       "restriction": "1/turn",
-      "description": "You can take a bonus action only when a special ability, spell, or feature states that you can do something as a bonus action."
+      "description": "You can take a bonus action only when a special ability, spell, or feature states that you can do something as a bonus action.",
+      "iconPath": "pouch"
     },
     {
       "name": "Reaction",
       "groupColor": "#920bd6",
       "restriction": "1/round",
-      "description": "A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's."
+      "description": "A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's.",
+      "iconPath": "danger"
     },
     {
       "name": "Condition",
       "groupColor": "#ba0959",
       "restriction": "",
-      "description": "Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect."
+      "description": "Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.",
+      "iconPath": "skull"
     }
   ]
 }

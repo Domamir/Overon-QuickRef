@@ -27,6 +27,13 @@
     object-fit: cover;
     border-radius: 4px;
     background-color: currentColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-img {
+    width: 80%;
 }
 
 .ElementName {

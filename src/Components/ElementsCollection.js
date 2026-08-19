@@ -1,12 +1,21 @@
 ﻿import OveronElementsCategories from "../JsonData/OveronElementsCategories.json"
 import ElementCard from "./ElementCard";
 import ElementInfoWindow from "./ElementInfoWindow";
-import {useState} from 'react';
+import {useMemo, useState} from 'react';
 import '../CSS/ElementsCollection.css';
 import elementInfoWindow from "./ElementInfoWindow";
 
-function ElementsCollection({name, restriction, description, groupColor}) {
+function ElementsCollection({name, restriction, description, iconPath, groupColor}) {
     const [elementInfoWindowData, setElementInfoWindowData] = useState({ isOpen: false, name: '', shortDescription: '', longDescription: '' });
+    const collator = useMemo(() => new Intl.Collator('pl', {sensitivity: 'base'}),[])
+
+    const sortedElements = useMemo(() => {
+        return OveronElementsCategories
+            .filter(element => element.category === name)
+            .flatMap(element => element.actions)
+            .slice()
+            .sort((item1, item2) => collator.compare(item1?.name ?? '', item2?.name ?? ''));
+    }, [name, collator])
 
     const handleButtonClick = (item) => {
         setElementInfoWindowData({
@@ -35,19 +44,17 @@ function ElementsCollection({name, restriction, description, groupColor}) {
                     <div className="col d-flex align-items-center flex-column">
                         <div className="CollectionDescription row text-start">{description}</div>
                         <div className="CollectionElements row">
-                            {OveronElementsCategories.filter(element => element.category === name)
-                                .flatMap(element => element.actions)
-                                .map((item, index) => (
-                                    <div key={index} className="col-6 col-md-4 col-lg-3 ps-0">
-                                        <ElementCard
-                                            name={item.name}
-                                            shortDescription={item.shortDescription}
-                                            longDescription={item.longDescription}
-                                            textColor={textColor}
-                                            onClick={() => handleButtonClick(item)}
-                                        />
-                                    </div>
-                                ))}
+                            {sortedElements.map((item) => (
+                                <div key={item.name} className="col-6 col-md-4 col-lg-3 ps-0">
+                                    <ElementCard
+                                        name={item.name}
+                                        shortDescription={item.shortDescription}
+                                        iconPath={iconPath}
+                                        textColor={textColor}
+                                        onClick={() => handleButtonClick(item)}
+                                    />
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
