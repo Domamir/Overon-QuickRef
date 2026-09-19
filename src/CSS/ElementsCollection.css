@@ -7,7 +7,8 @@
     min-height: 200px;
     padding: 5px;
     border-radius: 10px;
-    min-width: 400px;
+    min-width: 350px;
+
 }
 
 .container-fluid{
@@ -35,12 +36,17 @@
     padding: 5px;
     font-size: calc(5px + 2vmin);
 }
+.CollectionTitle {
+    display: flex;
+    align-items: center;
+}
 
 .CollectionDescription {
     font-size: calc(10px + 1vmin);
     height: 20%;
     width: 100%;
     margin-bottom: 5px;
+    padding-top: 0.5rem;
 }
 
 .CollectionElements {

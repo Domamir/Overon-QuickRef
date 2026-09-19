@@ -265,177 +265,212 @@
       {
         "name": "Blinded",
         "shortDescription": "",
-        "longDescription": "A blinded creature have no sense of vision and will loose any vision like, heat vision, magic vision etc.\n\nCreatures immune to blinded will still be blinded in heavy obscurement."
+        "longDescription": "A blinded creature have no sense of vision and will loose any vision like, heat vision, magic vision etc.\n\nCreatures immune to blinded will still be blinded in heavy obscurement.",
+        "iconName": "blinded"
       },
       {
         "name": "Deafened",
         "shortDescription": "",
-        "longDescription": "A deafened creature will have no sense of hearing\nDeafened creature will have 25% chance to fail any verbal sound or magic component wasting an appropriate  action (not spellslots)."
+        "longDescription": "A deafened creature will have no sense of hearing\nDeafened creature will have 25% chance to fail any verbal sound or magic component wasting an appropriate  action (not spellslots).",
+        "iconName": "deafened"
       },
       {
         "name": "Distracted",
         "shortDescription": "",
-        "longDescription": "Creature that is distracted will have disadvantage on all senses related rolls and insight out of specified target or area and 2 cubes around it.\nCreature will not have any downside to its perception and insight within  range of distraction.\nDistracted creature needs to be able to observe distracting target or only notice it if its related to hearing sense. If it cannot do that, distracted status won't work.\nDistraction can allow hiding in open space when outside space of focus. \n\nThis status is related to psychic damage"
+        "longDescription": "Creature that is distracted will have disadvantage on all senses related rolls and insight out of specified target or area and 2 cubes around it.\nCreature will not have any downside to its perception and insight within  range of distraction.\nDistracted creature needs to be able to observe distracting target or only notice it if its related to hearing sense. If it cannot do that, distracted status won't work.\nDistraction can allow hiding in open space when outside space of focus. \n\nThis status is related to psychic damage",
+        "iconName": "distracted"
       },
       {
         "name": "Taunted",
         "shortDescription": "",
-        "longDescription": "Taunting creatures have special effects:\nDisadvantage on strike rolls and forcing athletic rolls against all creatures except taunter.\nTaunter have advantage against this creature saving throws and its spells.\nTaunted creature needs to be able to observe taunting target or only notice it if its related to hearing sense.  If it cannot do that, taunted status won't work.\n\nThis status is related to psychic damage"
+        "longDescription": "Taunting creatures have special effects:\nDisadvantage on strike rolls and forcing athletic rolls against all creatures except taunter.\nTaunter have advantage against this creature saving throws and its spells.\nTaunted creature needs to be able to observe taunting target or only notice it if its related to hearing sense.  If it cannot do that, taunted status won't work.\n\nThis status is related to psychic damage",
+        "iconName": "taunted"
       },
       {
         "name": "Frenzied",
         "shortDescription": "",
-        "longDescription": "Frenzied creature is also Taunted even if its immune to that status. \nA frenzied creature will have to harm or include creature that made it frenzied in area of effect that will directly harm it while in this status.\nFrenzied creature needs to be able to observe  target that gave it this status or only notice it if its related to hearing sense.  If it cannot do that, Frenzied status won't work.\n\nThis status is related to psychic damage"
+        "longDescription": "Frenzied creature is also Taunted even if its immune to that status. \nA frenzied creature will have to harm or include creature that made it frenzied in area of effect that will directly harm it while in this status.\nFrenzied creature needs to be able to observe  target that gave it this status or only notice it if its related to hearing sense.  If it cannot do that, Frenzied status won't work.\n\nThis status is related to psychic damage",
+        "iconName": "frenzied"
       },
       {
         "name": "Poisoned",
         "shortDescription": "",
-        "longDescription": "A poisoned creature has disadvantage on everything except its own recovery rolls against this status.\nPoisons have different effects depending of poison. \nIf poisoned gives other status it remains there unless poisoned status is removed."
+        "longDescription": "A poisoned creature has disadvantage on everything except its own recovery rolls against this status.\nPoisons have different effects depending of poison. \nIf poisoned gives other status it remains there unless poisoned status is removed.",
+        "iconName": "poisoned"
       },
       {
         "name": "Restrained",
         "shortDescription": "",
-        "longDescription": "A restrained creature’s speed temporarly becomes 0, and it can’t benefit from any bonus to its speed.\nStrike rolls against the creature have advantage  and steal action against this creature is made with duble advantage.\nCreature is unable to perform somatic component for a spell and have disadvantage on strike rolls and athletics rolls\nCreature have clumsy status.\nCreature cannot block path by purpuse."
+        "longDescription": "A restrained creature’s speed temporarly becomes 0, and it can’t benefit from any bonus to its speed.\nStrike rolls against the creature have advantage  and steal action against this creature is made with duble advantage.\nCreature is unable to perform somatic component for a spell and have disadvantage on strike rolls and athletics rolls\nCreature have clumsy status.\nCreature cannot block path by purpuse.",
+        "iconName": "restrained"
       },
       {
         "name": "Grappled",
         "shortDescription": "",
-        "longDescription": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the grappler is paralized, petrifyed stunned or unconcious.\nThe condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect,\n such as when a creature is hurled away by the thunderwave spell.\n\nWeapons that grapple creatures on range can still walk to the source of grapple, including natural ones like hands.\nIf you are grappled by natural weapon like calw, you can strike directly the grappler.\nGrappler can end that status using reaction or free action."
+        "longDescription": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the grappler is paralized, petrifyed stunned or unconcious.\nThe condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect,\n such as when a creature is hurled away by the thunderwave spell.\n\nWeapons that grapple creatures on range can still walk to the source of grapple, including natural ones like hands.\nIf you are grappled by natural weapon like calw, you can strike directly the grappler.\nGrappler can end that status using reaction or free action.",
+        "iconName": "grappled"
       },
       {
         "name": "Prone",
         "shortDescription": "",
-        "longDescription": "A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.\nCrawling treats all terrain to be 1 tier higher in difficulty. \nThe creature has disadvantage on attack rolls and cannot use ranged weapons except blowgun, crossbow and pistols. \nAn strike roll against the creature has advantage if the attacker is within 2 cubes of the creature. Otherwise, the strike roll has disadvantage.\nYou cannot be prone in water. \n\nYou can stand up using half of your maximum movement (rounded down). If you have 0 cubes of movement you cannot stand up."
+        "longDescription": "A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.\nCrawling treats all terrain to be 1 tier higher in difficulty. \nThe creature has disadvantage on attack rolls and cannot use ranged weapons except blowgun, crossbow and pistols. \nAn strike roll against the creature has advantage if the attacker is within 2 cubes of the creature. Otherwise, the strike roll has disadvantage.\nYou cannot be prone in water. \n\nYou can stand up using half of your maximum movement (rounded down). If you have 0 cubes of movement you cannot stand up.",
+        "iconName": "prone"
       },
       {
         "name": "Sickened",
         "shortDescription": "",
-        "longDescription": "A sickened creature has disadvantage on everything except its own recovery rolls against this status.\nDieseases have different effects depending on diesease. \nIf sickened gives other status it remains there unless sickened status is removed.\nThis status can stack.\n\nThis status is related to decay damage"
+        "longDescription": "A sickened creature has disadvantage on everything except its own recovery rolls against this status.\nDieseases have different effects depending on diesease. \nIf sickened gives other status it remains there unless sickened status is removed.\nThis status can stack.\n\nThis status is related to decay damage",
+        "iconName": "sickened"
       },
       {
         "name": "Unconcious",
         "shortDescription": "",
-        "longDescription": "An unconscious creature  cant take any action, can’t move or speak, and is mostly unaware of its surroundings\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature have disadvantage on perception rolls\nYou gain Assailable status\nYou also don't take into account your dexteity when calculating AC\n\nAsleep rule: If creature is unconcious due to the sleeping any damage or spending action touching it will wake it up.\nIt can be awake by loud noise with DC 5-14 perception roll based on hearing that can be rolled once per round. (dc may wary due to loudness)"
+        "longDescription": "An unconscious creature  cant take any action, can’t move or speak, and is mostly unaware of its surroundings\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature have disadvantage on perception rolls\nYou gain Assailable status\nYou also don't take into account your dexteity when calculating AC\n\nAsleep rule: If creature is unconcious due to the sleeping any damage or spending action touching it will wake it up.\nIt can be awake by loud noise with DC 5-14 perception roll based on hearing that can be rolled once per round. (dc may wary due to loudness)",
+        "iconName": "unconcious"
       },
       {
         "name": "Overstimulated",
         "shortDescription": "",
-        "longDescription": "You have disadvantage on every perception check and sense related rolls \nAll senses are 1 tier lower. \n\nThis status is related to psychic damage"
+        "longDescription": "You have disadvantage on every perception check and sense related rolls \nAll senses are 1 tier lower. \n\nThis status is related to psychic damage",
+        "iconName": "overstimulated"
       },
       {
         "name": "Trembling",
         "shortDescription": "",
-        "longDescription": "A trembling creature has disadvantage on skill checks and attack rolls while the source of its status is within line of sense. \nIt means you need to have full cover and peeking/looking into this line of sight will activate effect of status.\nThe creature can’t willingly move closer to the source of its status."
+        "longDescription": "A trembling creature has disadvantage on skill checks and attack rolls while the source of its status is within line of sense. \nIt means you need to have full cover and peeking/looking into this line of sight will activate effect of status.\nThe creature can’t willingly move closer to the source of its status.",
+        "iconName": "trembling"
       },
       {
         "name": "Frightened",
         "shortDescription": "",
-        "longDescription": "Creature that is frightened will have trembling status (even if you are immune to trembling status) \nand can act normally only when its within  a place out of line of sight of status source.\nIt means you need to have full cover and peeking/looking into this line of sight will activate effect of status.\nCreature while frightened needs to do everything in its power to get out of line of sight of creature that made status to this creature."
+        "longDescription": "Creature that is frightened will have trembling status (even if you are immune to trembling status) \nand can act normally only when its within  a place out of line of sight of status source.\nIt means you need to have full cover and peeking/looking into this line of sight will activate effect of status.\nCreature while frightened needs to do everything in its power to get out of line of sight of creature that made status to this creature.",
+        "iconName": "frightened"
       },
       {
         "name": "Charmed",
         "shortDescription": "",
-        "longDescription": "Charmed creature regards a creature that got it this status (charmer) a friend. If charmes will comunicate what creatures are his friends it will work on them to.\nCharmed creature cannot do anything that would be harmfull to charmer and his \"\"friends\"\"\nCharisma rolls against a charmed creature by charmer are made with advantage.\nCharmed creature will know it was charmed only after the end of a status. \nIf something harmfull or heavily threatining from charmer or his \"\"friends\"\" is done to charmed creature it loses this status. \n\nExample:\nCharmer makes ready action to stab charmed creature \nCharmer will threaten to burn charmed creature house and family\n\nThis status is related to psychic damage"
+        "longDescription": "Charmed creature regards a creature that got it this status (charmer) a friend. If charmes will comunicate what creatures are his friends it will work on them to.\nCharmed creature cannot do anything that would be harmfull to charmer and his \"\"friends\"\"\nCharisma rolls against a charmed creature by charmer are made with advantage.\nCharmed creature will know it was charmed only after the end of a status. \nIf something harmfull or heavily threatining from charmer or his \"\"friends\"\" is done to charmed creature it loses this status. \n\nExample:\nCharmer makes ready action to stab charmed creature \nCharmer will threaten to burn charmed creature house and family\n\nThis status is related to psychic damage",
+        "iconName": "charmed"
       },
       {
         "name": "Hypnotized",
         "shortDescription": "",
-        "longDescription": "You cannot take any actions. \nYou fail any will and reflex saving throws.\nYou fail any skill roll agains you.\nYou also don't take into account your dexteity when calculating AC\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage"
+        "longDescription": "You cannot take any actions. \nYou fail any will and reflex saving throws.\nYou fail any skill roll agains you.\nYou also don't take into account your dexteity when calculating AC\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage",
+        "iconName": "hypnotized"
       },
       {
         "name": "Controlled",
         "shortDescription": "",
-        "longDescription": "Someone else is controlling you completely. \nYou need to hear or understand what a creature that is controlling you wants you to do. \nYou do the task untill its done or status is gone. \nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage"
+        "longDescription": "Someone else is controlling you completely. \nYou need to hear or understand what a creature that is controlling you wants you to do. \nYou do the task untill its done or status is gone. \nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage",
+        "iconName": "controlled"
       },
       {
         "name": "Lured",
         "shortDescription": "",
-        "longDescription": "A creature that is lured needs to spend all its rescourses to get as close as it can to the source of luring.\nCreature will take shortest route getting itself at risk.\nCreature can act normally only when is adjected to a source of luring.\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \nIf creature have multiple sources of luring, it prioritizes the closest source.\n\nThis status is related to psychic damage"
+        "longDescription": "A creature that is lured needs to spend all its rescourses to get as close as it can to the source of luring.\nCreature will take shortest route getting itself at risk.\nCreature can act normally only when is adjected to a source of luring.\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \nIf creature have multiple sources of luring, it prioritizes the closest source.\n\nThis status is related to psychic damage",
+        "iconName": "lured"
       },
       {
         "name": "Dazzled",
         "shortDescription": "",
-        "longDescription": "Dazzled creature have 25% chance at start of a turn to speak only gibberish failing any  verbal comunication or order. Also it  fails to understand others.\nStrike rolls against the creature have advantage, and the creature’s strike rolls have disadvantage.\nCreature  have disadvantage on perception rolls.\nIf you get dazzled status on top of existing one it changes to stunned status and you lose dazzled status\n\nStatus is related to sonic damage"
+        "longDescription": "Dazzled creature have 25% chance at start of a turn to speak only gibberish failing any  verbal comunication or order. Also it  fails to understand others.\nStrike rolls against the creature have advantage, and the creature’s strike rolls have disadvantage.\nCreature  have disadvantage on perception rolls.\nIf you get dazzled status on top of existing one it changes to stunned status and you lose dazzled status\n\nStatus is related to sonic damage",
+        "iconName": "dazzled"
       },
       {
         "name": "Stunned",
         "shortDescription": "",
-        "longDescription": "Stunned overrides dazzled\nA stunned creature cant take any action, can’t move, and can speak only gibberish failing any  verbal comunication or order.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature fails to understand others and have disadvantage on perception rolls.\nYou gain Assailable status\nWhen you lose stunned status you will get dazzled status \nYou also don't take into account your dexteity when calculating AC\n\nStatus is related to sonic damage"
+        "longDescription": "Stunned overrides dazzled\nA stunned creature cant take any action, can’t move, and can speak only gibberish failing any  verbal comunication or order.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature fails to understand others and have disadvantage on perception rolls.\nYou gain Assailable status\nWhen you lose stunned status you will get dazzled status \nYou also don't take into account your dexteity when calculating AC\n\nStatus is related to sonic damage",
+        "iconName": "stunned"
       },
       {
         "name": "Petrified",
         "shortDescription": "",
-        "longDescription": "You cannot take any actions.\nA petrified creature is transformed, into a solid inanimate substance (usually stone).\n Its weight increases by a factor of ten, and it ceases aging.\nStrike rolls agains you are made with advantage\nThe creature automatically fails any  saving throws except will. \nCreature is restrained\nKreatura zyskuje resist na każe obrażenia wysokości 7 (oprócz sonic i death)\nDostaje vonurability na sonic damage = 5 i immunity na death damage\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.\n\nTurning into stone:\nWhile petrification is in motion you will be clumsy for the whole proces. \nNow you need to count fails. At the end of a turn you will have to repeat saving throw. Succeding DC will remove one fail from count.\nIf you fail again (Second fail) you gain restrained status and you have disadvantage against beeing tripped. \nYou can also spend whole action to damage yourself with slashing weapon to cut off your legs to imedeately free yourself, but you loose legs.... (half movement for crawling)\nOn the third fail you cannot use your hands.\nOn the final fourth fail you are petrified. "
+        "longDescription": "You cannot take any actions.\nA petrified creature is transformed, into a solid inanimate substance (usually stone).\n Its weight increases by a factor of ten, and it ceases aging.\nStrike rolls agains you are made with advantage\nThe creature automatically fails any  saving throws except will. \nCreature is restrained\nKreatura zyskuje resist na każe obrażenia wysokości 7 (oprócz sonic i death)\nDostaje vonurability na sonic damage = 5 i immunity na death damage\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.\n\nTurning into stone:\nWhile petrification is in motion you will be clumsy for the whole proces. \nNow you need to count fails. At the end of a turn you will have to repeat saving throw. Succeding DC will remove one fail from count.\nIf you fail again (Second fail) you gain restrained status and you have disadvantage against beeing tripped. \nYou can also spend whole action to damage yourself with slashing weapon to cut off your legs to imedeately free yourself, but you loose legs.... (half movement for crawling)\nOn the third fail you cannot use your hands.\nOn the final fourth fail you are petrified. ",
+        "iconName": "petrified"
       },
       {
         "name": "Numb",
         "shortDescription": "",
-        "longDescription": "Numb creature  can use either main action or bonus action.\nYou have clumsy status\n\nIf you get numb status on top of existing one it changes to paralized status and you lose numb status\nThis status is related to electric damage unless it comes from poison."
+        "longDescription": "Numb creature  can use either main action or bonus action.\nYou have clumsy status\n\nIf you get numb status on top of existing one it changes to paralized status and you lose numb status\nThis status is related to electric damage unless it comes from poison.",
+        "iconName": "numb"
       },
       {
         "name": "Paralyzed",
         "shortDescription": "",
-        "longDescription": "Paralize overrides Numb\nA paralyzed creature cant take any action and can’t move or speak.\nThe creature automatically fails any strength or dexterity related rolls\nAttack rolls against the creature have advantage.\nYou gain Assailable status\nWhen you lose paralized status you will get numb status \nYou also don't take into account your dexteity when calculating AC\n\nThis status is related to electric damage unless it comes from poison."
+        "longDescription": "Paralize overrides Numb\nA paralyzed creature cant take any action and can’t move or speak.\nThe creature automatically fails any strength or dexterity related rolls\nAttack rolls against the creature have advantage.\nYou gain Assailable status\nWhen you lose paralized status you will get numb status \nYou also don't take into account your dexteity when calculating AC\n\nThis status is related to electric damage unless it comes from poison.",
+        "iconName": "paralyzed"
       },
       {
         "name": "Invisible",
         "shortDescription": "",
-        "longDescription": "You cannot be sensed with vision sense. This status is concidered an advanced illlusion, so magic vision cannot see past it. \nCreatures that rely on sight can only notice and observe you with hearing and smell sense.\nWhen creature only unprecisely senses you, every action against you is made with disadvantage, if they notice you with vague sense add another disadvantage.\nGrappling or restraining creature gives ability to visualize where target could be enabling abilities and spells requiring precisely sensing and invisible gives\nthen 1 less disadvantage  to do actions against invisible. "
+        "longDescription": "You cannot be sensed with vision sense. This status is concidered an advanced illlusion, so magic vision cannot see past it. \nCreatures that rely on sight can only notice and observe you with hearing and smell sense.\nWhen creature only unprecisely senses you, every action against you is made with disadvantage, if they notice you with vague sense add another disadvantage.\nGrappling or restraining creature gives ability to visualize where target could be enabling abilities and spells requiring precisely sensing and invisible gives\nthen 1 less disadvantage  to do actions against invisible. ",
+        "iconName": "invisible"
       },
       {
         "name": "Disarmed",
         "shortDescription": "",
-        "longDescription": "Creature have  25% chance to fail somatic component (wastes only action not magic rescourse) \nDisadvantage on all strikes, athletics, and all dexterity skill rolls"
+        "longDescription": "Creature have  25% chance to fail somatic component (wastes only action not magic rescourse) \nDisadvantage on all strikes, athletics, and all dexterity skill rolls",
+        "iconName": "disarmed"
       },
       {
         "name": "Drained",
         "shortDescription": "",
-        "longDescription": "Drained status have number and its cumulative\nDrained will reduce your maximum health by that number. \nYou reduce number of drained every long rest by your level number + con mod + other bonuses.\n\nThis status subtracts vigorous status first deleting both simultaneously and equally, because they collide, no mater how long thay last, they \"\"burn\"\" eachother.\nThis status is related to decay"
+        "longDescription": "Drained status have number and its cumulative\nDrained will reduce your maximum health by that number. \nYou reduce number of drained every long rest by your level number + con mod + other bonuses.\n\nThis status subtracts vigorous status first deleting both simultaneously and equally, because they collide, no mater how long thay last, they \"\"burn\"\" eachother.\nThis status is related to decay",
+        "iconName": "drained"
       },
       {
         "name": "Hasted",
         "shortDescription": "",
-        "longDescription": "Creature have dubled movement\nCreature gains another main action or bonus action( can choose)\nCreature gains another interaction\nCreature have advantage on any dexterity related roll\nCreature gains +2 AC\n\nAfter haste status ends you creature must roll DC 20 fortitude save two times or get dazzled status. \nHasted status overrides swift status. When you have this status it cancels itself with clumsy status making them both not relevant when both are active.\nIt also gains enfeebled status for one minute. Creature can repeat saving throw at the end of a turn."
+        "longDescription": "Creature have dubled movement\nCreature gains another main action or bonus action( can choose)\nCreature gains another interaction\nCreature have advantage on any dexterity related roll\nCreature gains +2 AC\n\nAfter haste status ends you creature must roll DC 20 fortitude save two times or get dazzled status. \nHasted status overrides swift status. When you have this status it cancels itself with clumsy status making them both not relevant when both are active.\nIt also gains enfeebled status for one minute. Creature can repeat saving throw at the end of a turn.",
+        "iconName": "hasted"
       },
       {
         "name": "Confused",
         "shortDescription": "",
-        "longDescription": "A creature confused will have to roll 1d8\nConfused creature speak  fails to understand others.\nCreature have disadvantage on perception rolls. \nCreature will use opportunity strike on all ocasions.\n1-2     The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face.\nIf it can it has to use tumble threw.  \n3-6   The creature doesn’t move or take actions this turn.\n7-8   The creature uses its whole turn to do most harm to random closest creature (from start of a turn)\n\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage."
+        "longDescription": "A creature confused will have to roll 1d8\nConfused creature speak  fails to understand others.\nCreature have disadvantage on perception rolls. \nCreature will use opportunity strike on all ocasions.\n1-2     The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face.\nIf it can it has to use tumble threw.  \n3-6   The creature doesn’t move or take actions this turn.\n7-8   The creature uses its whole turn to do most harm to random closest creature (from start of a turn)\n\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage.",
+        "iconName": "confused"
       },
       {
         "name": "Silenced",
         "shortDescription": "",
-        "longDescription": "Verbal comunication and verbal component for spell is blocked."
+        "longDescription": "Verbal comunication and verbal component for spell is blocked.",
+        "iconName": "silenced"
       },
       {
         "name": "Doomed",
         "shortDescription": "",
-        "longDescription": "Doomed status have number on it and its cumulative\nA creature that is doomed will have less maximum wounded status equal to doomed status.\nIf doomed status will be equal to character maximum wounded status the creature will die on the spot.\nIf you die under doomed status all doomed status is removed.\n\nDoomed on creatures without wounded statuses:\nCreature will die if it has 10 life hit points or less per 1 doomed status\n\nThis status is related to decay"
+        "longDescription": "Doomed status have number on it and its cumulative\nA creature that is doomed will have less maximum wounded status equal to doomed status.\nIf doomed status will be equal to character maximum wounded status the creature will die on the spot.\nIf you die under doomed status all doomed status is removed.\n\nDoomed on creatures without wounded statuses:\nCreature will die if it has 10 life hit points or less per 1 doomed status\n\nThis status is related to decay",
+        "iconName": "doomed"
       },
       {
         "name": "Encumbered",
         "shortDescription": "",
-        "longDescription": "If first stage encumbered:\nYou are clumsy\n\nIf second stage encumbered:\nYou gain clumsy status\nNo movement and jump is impossible\nYou automatically fail reflex saves"
+        "longDescription": "If first stage encumbered:\nYou are clumsy\n\nIf second stage encumbered:\nYou gain clumsy status\nNo movement and jump is impossible\nYou automatically fail reflex saves",
+        "iconName": "encumbered"
       },
       {
         "name": "Stupefied",
         "shortDescription": "",
-        "longDescription": "Creature that is stupedied will have disadvantage on any wisdom, charisma and inteligence related roll.\nAlso stupefied creature will have 50% chance to fail casting spell wasting an appropriate action (not spellslots).\n\nThis status is related to psychic damage."
+        "longDescription": "Creature that is stupedied will have disadvantage on any wisdom, charisma and inteligence related roll.\nAlso stupefied creature will have 50% chance to fail casting spell wasting an appropriate action (not spellslots).\n\nThis status is related to psychic damage.",
+        "iconName": "stupefied"
       },
       {
         "name": "Enfeebled",
         "shortDescription": "",
-        "longDescription": "Creature that is enfeebled will have disadvantage on  any strength or constitution related roll.\nCreature maximum bulk is cut in half (rounded down)\nCreature deals half the damage from weapon damage or other athletics and physical interactions. (rouned down)\nYour jumping power is cut in half (rounded down)"
+        "longDescription": "Creature that is enfeebled will have disadvantage on  any strength or constitution related roll.\nCreature maximum bulk is cut in half (rounded down)\nCreature deals half the damage from weapon damage or other athletics and physical interactions. (rouned down)\nYour jumping power is cut in half (rounded down)",
+        "iconName": "enfeebled"
       },
       {
         "name": "Clumsy",
         "shortDescription": "",
-        "longDescription": "Creature that is clumsy will have disadvantage on reflex saves and any dexterity related roll.\nYou also don't take into account your dexteity when calculating AC\nYour movement spending is dubled "
+        "longDescription": "Creature that is clumsy will have disadvantage on reflex saves and any dexterity related roll.\nYou also don't take into account your dexteity when calculating AC\nYour movement spending is dubled ",
+        "iconName": "clumsy"
       },
       {
         "name": "Unhealable",
         "shortDescription": "",
-        "longDescription": "You cannot gain life hit points.\n\nThis status is related to decay."
+        "longDescription": "You cannot gain life hit points.\n\nThis status is related to decay.",
+        "iconName": "unhealable"
       },
       {
         "name": "Exhausted",
@@ -445,77 +480,92 @@
       {
         "name": "Empowered",
         "shortDescription": "",
-        "longDescription": "Creature that is Empowered will have advantage on  any strength or constitution related roll.\nCreature half maximum bulk (rounded down) is added before any calculation is made.\nCreature canot deal less damage than avarage on weapon damage dices (rounded down)\nCreature jump is dubled (rounded down)\nWhen you have this status it cancels itself with enfeebled status making them both not relevant when both are active."
+        "longDescription": "Creature that is Empowered will have advantage on  any strength or constitution related roll.\nCreature half maximum bulk (rounded down) is added before any calculation is made.\nCreature canot deal less damage than avarage on weapon damage dices (rounded down)\nCreature jump is dubled (rounded down)\nWhen you have this status it cancels itself with enfeebled status making them both not relevant when both are active.",
+        "iconName": "empowered"
       },
       {
         "name": "Swift",
         "shortDescription": "",
-        "longDescription": "Creature that is swift will have advantage on reflex saving throws and any dexterity related roll.\nCreature movement id dubled.\nOpportunity strikes against you when you are not restrained or grappled are made with disadvantage.\nWhen you have this status it cancels itself with clumsy status making them both not relevant when both are active."
+        "longDescription": "Creature that is swift will have advantage on reflex saving throws and any dexterity related roll.\nCreature movement id dubled.\nOpportunity strikes against you when you are not restrained or grappled are made with disadvantage.\nWhen you have this status it cancels itself with clumsy status making them both not relevant when both are active.",
+        "iconName": "swift"
       },
       {
         "name": "Enlightened",
         "shortDescription": "",
-        "longDescription": "Creature with enlightened status gains advantage on inteligence and wisdom ceck and saving throw, only exception is perception, insight and survival check that requires sense\nWhen you have this status it cancels itself with stupefied status making them both not relevant when both are active."
+        "longDescription": "Creature with enlightened status gains advantage on inteligence and wisdom ceck and saving throw, only exception is perception, insight and survival check that requires sense\nWhen you have this status it cancels itself with stupefied status making them both not relevant when both are active.",
+        "iconName": "enlightened"
       },
       {
         "name": "Perceptive",
         "shortDescription": "",
-        "longDescription": "Creature with perceptive status gains advantage on any perception, insight and survival check that requires sense.\nCreature also is immune to any sense degradation, except blindness and deafeness."
+        "longDescription": "Creature with perceptive status gains advantage on any perception, insight and survival check that requires sense.\nCreature also is immune to any sense degradation, except blindness and deafeness.",
+        "iconName": "perceptive"
       },
       {
         "name": "Influential",
         "shortDescription": "",
-        "longDescription": "Creature with influential status gains advantage on any charisma skill"
+        "longDescription": "Creature with influential status gains advantage on any charisma skill",
+        "iconName": "influential"
       },
       {
         "name": "Vigorous",
         "shortDescription": "",
-        "longDescription": "Creature with vigorous status gains as much maximum life hit points as it has stacks of this status.\nWhen you gain vigorous status only the highest amout gained counts, If you have already 10 and you gain 4 it does nothing.\nThis status subtracts drained status first deleting both simultaneously and equally, because they collide, no mater how long thay last, they \"\"burn\"\" eachother."
+        "longDescription": "Creature with vigorous status gains as much maximum life hit points as it has stacks of this status.\nWhen you gain vigorous status only the highest amout gained counts, If you have already 10 and you gain 4 it does nothing.\nThis status subtracts drained status first deleting both simultaneously and equally, because they collide, no mater how long thay last, they \"\"burn\"\" eachother.",
+        "iconName": "vigorous"
       },
       {
         "name": "Hidden",
         "shortDescription": "",
-        "longDescription": "While you are hidden creatures cannot target you (except aoe effects) and don't know where you are unless they will observe you.\nWhen you are hidden you gain bonuses based on beeing noticed and unnoticed.\nWhen you are noticed or unnoticed any reflex saving throw you force is made with disadvantage and strike or athletics roll you make is made with advantage.\nWhen you are unoticed to a creature you duble all effects.\nAfter you strike , cast a spell, do a harmfull action you break stealth.\nStealing is not harmfull action. \n\nCreatures have to use seek action to break your stealth or just sense you clearly. "
+        "longDescription": "While you are hidden creatures cannot target you (except aoe effects) and don't know where you are unless they will observe you.\nWhen you are hidden you gain bonuses based on beeing noticed and unnoticed.\nWhen you are noticed or unnoticed any reflex saving throw you force is made with disadvantage and strike or athletics roll you make is made with advantage.\nWhen you are unoticed to a creature you duble all effects.\nAfter you strike , cast a spell, do a harmfull action you break stealth.\nStealing is not harmfull action. \n\nCreatures have to use seek action to break your stealth or just sense you clearly. ",
+        "iconName": "hidden"
       },
       {
         "name": "Bleeding",
         "shortDescription": "",
-        "longDescription": "When you bleed you take indirect slashing damage  on end of a turn. (damage always depends and should be listed).\nBleeding works only when creature can bleed. Bleeding will work only if creature is injured on its life hit points. \nBleeding does not stack and uses higher damage if presented.\nTo stop bleeding you need to use medicine check with dc equal to your stabilization dc or heal creature to the full."
+        "longDescription": "When you bleed you take indirect slashing damage  on end of a turn. (damage always depends and should be listed).\nBleeding works only when creature can bleed. Bleeding will work only if creature is injured on its life hit points. \nBleeding does not stack and uses higher damage if presented.\nTo stop bleeding you need to use medicine check with dc equal to your stabilization dc or heal creature to the full.",
+        "iconName": "bleeding"
       },
       {
         "name": "Burning",
         "shortDescription": "",
-        "longDescription": "When you burn you take indirect fire damage on end of a turn. (damage always depends and should be listed).\nBurning does not stack and uses higher damage if presented.\nTo stop burning you need to get in complete water, spend an action to get prone and roll (using all of your maximum walking movement)\n or use item  to spill water onto yourself.\nGetting cold damage, beeing in very cold enviroment or beeing in very stong wind can douse flames to.\nAnything that makes sense should work to.\nWhen you burn you shed light 3/6\n\nThis status is related to fire damage"
+        "longDescription": "When you burn you take indirect fire damage on end of a turn. (damage always depends and should be listed).\nBurning does not stack and uses higher damage if presented.\nTo stop burning you need to get in complete water, spend an action to get prone and roll (using all of your maximum walking movement)\n or use item  to spill water onto yourself.\nGetting cold damage, beeing in very cold enviroment or beeing in very stong wind can douse flames to.\nAnything that makes sense should work to.\nWhen you burn you shed light 3/6\n\nThis status is related to fire damage",
+        "iconName": "burning"
       },
       {
         "name": "Chilled",
         "shortDescription": "",
-        "longDescription": "When you get chilled you take indirect  cold damage everytime you take cold damage, but only once per round. (damage always depends and should be listed).\nChilled does not stack and uses higher damage if presented.\nChlled creature will have its speed reduced by half ( rounded up)\nYou get resistance to fire equal to 5\nTo stop this status you can take damage from fire, be around something very warm like lava or for 10 minutes around some campfire\nOr it is specified in spell or ability. \nAnything that makes sense should work to.\n\nThis status is related to cold damage"
+        "longDescription": "When you get chilled you take indirect  cold damage everytime you take cold damage, but only once per round. (damage always depends and should be listed).\nChilled does not stack and uses higher damage if presented.\nChlled creature will have its speed reduced by half ( rounded up)\nYou get resistance to fire equal to 5\nTo stop this status you can take damage from fire, be around something very warm like lava or for 10 minutes around some campfire\nOr it is specified in spell or ability. \nAnything that makes sense should work to.\n\nThis status is related to cold damage",
+        "iconName": "chilled"
       },
       {
         "name": "Electrified",
         "shortDescription": "",
-        "longDescription": "(examples) This status is aquired when touching cables with energy or elemenal grapples you\nWhen you get electrified you take indirect  electric damage  on end of a turn. (damage always depends and should be listed).\nElectrified does not stack and uses higher damage if presented.\nYou are also paralyzed, and can end effect at the end of a turn to attempt fortitude saving thow with disadvantage to cut yourself from source of energy (if possible)\nTo stop this status other you need to stop touching or getting touched by energy source. Pushing should work.\nBe carefull, grabbing electrified creature can make other creature electrified to.\nAnything that makes sense should work.\nCreatures immune to electric damage are immune to this status. \n\nThis status is related to electric damage"
+        "longDescription": "(examples) This status is aquired when touching cables with energy or elemenal grapples you\nWhen you get electrified you take indirect  electric damage  on end of a turn. (damage always depends and should be listed).\nElectrified does not stack and uses higher damage if presented.\nYou are also paralyzed, and can end effect at the end of a turn to attempt fortitude saving thow with disadvantage to cut yourself from source of energy (if possible)\nTo stop this status other you need to stop touching or getting touched by energy source. Pushing should work.\nBe carefull, grabbing electrified creature can make other creature electrified to.\nAnything that makes sense should work.\nCreatures immune to electric damage are immune to this status. \n\nThis status is related to electric damage",
+        "iconName": "electrified"
       },
       {
         "name": "Dissolving",
         "shortDescription": "",
-        "longDescription": "When you dissolve you take indirect acid damage on end of a turn. (damage always depends and should be listed).\nDissolving does not stack and uses higher damage if presented.\nYou get enfeebled status.\nTo stop this status other you need to submerge affecting bodypart in water or wait one minute (getting again status resets timer)\n\nThis status is related to acid damage"
+        "longDescription": "When you dissolve you take indirect acid damage on end of a turn. (damage always depends and should be listed).\nDissolving does not stack and uses higher damage if presented.\nYou get enfeebled status.\nTo stop this status other you need to submerge affecting bodypart in water or wait one minute (getting again status resets timer)\n\nThis status is related to acid damage",
+        "iconName": "dissolving"
       },
       {
         "name": "Wet",
         "shortDescription": "",
-        "longDescription": "When you are wet you are vonurable  to cold and electric damage and have duble disadvantage to anything related to cold and electric status.\nYou also have resistance to fire and acid damage equal to 5 and have advantage on anything related to acid or fire damage. \nGetting any of this damages removes status unless ou are in area giving this effect.\nWet characters with clothes gain +1 bulk encumberment for any clothing,tent or backpack. Anything soaking water."
+        "longDescription": "When you are wet you are vonurable  to cold and electric damage and have duble disadvantage to anything related to cold and electric status.\nYou also have resistance to fire and acid damage equal to 5 and have advantage on anything related to acid or fire damage. \nGetting any of this damages removes status unless ou are in area giving this effect.\nWet characters with clothes gain +1 bulk encumberment for any clothing,tent or backpack. Anything soaking water.",
+        "iconName": "wet"
       },
       {
         "name": "Oiled",
         "shortDescription": "",
-        "longDescription": "When you are oiled you are vonurable  to fire damage and have disadvantages to any fire related roll. \nYou also have resistance  acid damage equal to 5 and have advantage to any acid related roll. \nOiled creature depending on amount of oil will have its speed reduced by half ( rounded up) and cannot fly. \nGetting fire damage gives burning status (5 fire damage).\nWhile oiled you have 50/50% chance to extinguish yourself with rolling on ground and water extinguishes you only when completly submerged. \nIf you are oiled and you extinguish yourself from burning oiled is removed. \nYou need to wash all oil from you. It takes 10 minutes."
+        "longDescription": "When you are oiled you are vonurable  to fire damage and have disadvantages to any fire related roll. \nYou also have resistance  acid damage equal to 5 and have advantage to any acid related roll. \nOiled creature depending on amount of oil will have its speed reduced by half ( rounded up) and cannot fly. \nGetting fire damage gives burning status (5 fire damage).\nWhile oiled you have 50/50% chance to extinguish yourself with rolling on ground and water extinguishes you only when completly submerged. \nIf you are oiled and you extinguish yourself from burning oiled is removed. \nYou need to wash all oil from you. It takes 10 minutes.",
+        "iconName": "oiled"
       },
       {
         "name": "Assailable",
         "shortDescription": "",
-        "longDescription": "You are either sleeping or taken hostage and because of life points and damage rulings a special rule is made for special moments of vonurability like\nhaving gun to your head or blade to your throat. To get that status you have to be very defenceless.\nThis status can be given by unconcious, paralized or stunned status or by restraining or grappling creature and  spending 1 action to enable this staus\nfor you to benefit. Every creature who wants to benefit from this status will have to spend that action and precisely sense it like with vision or touch.\nLosing all those statuses or precise sense in some cases will free creature from such state.\n\n\nIn this state you get 2x more direct damage  (stacks with critical hits)\nCreatures that causes you to be assailable have advantage on their strikes against you."
+        "longDescription": "You are either sleeping or taken hostage and because of life points and damage rulings a special rule is made for special moments of vonurability like\nhaving gun to your head or blade to your throat. To get that status you have to be very defenceless.\nThis status can be given by unconcious, paralized or stunned status or by restraining or grappling creature and  spending 1 action to enable this staus\nfor you to benefit. Every creature who wants to benefit from this status will have to spend that action and precisely sense it like with vision or touch.\nLosing all those statuses or precise sense in some cases will free creature from such state.\n\n\nIn this state you get 2x more direct damage  (stacks with critical hits)\nCreatures that causes you to be assailable have advantage on their strikes against you.",
+        "iconName": "assailable"
       }
     ]
   }

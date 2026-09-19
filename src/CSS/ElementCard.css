@@ -36,10 +36,20 @@
     width: 80%;
 }
 
+.ElementName,
+.ElementShortDescription {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
 .ElementName {
     font-weight: 600;
+    font-size: clamp(0.9rem, 1vw + 0.55rem, 1.1rem);
     height: 50%;
-    align-self: flex-start
+    align-self: flex-start;
+    line-height: 1.2;
+    white-space: normal;
 }
 
 .ElementShortDescription {

@@ -5,7 +5,7 @@ import {useMemo, useState} from 'react';
 import '../CSS/ElementsCollection.css';
 import elementInfoWindow from "./ElementInfoWindow";
 
-function ElementsCollection({name, restriction, description, iconPath, groupColor}) {
+function ElementsCollection({name, restriction, description, groupIconPath, groupColor}) {
     const [elementInfoWindowData, setElementInfoWindowData] = useState({ isOpen: false, name: '', shortDescription: '', longDescription: '' });
     const collator = useMemo(() => new Intl.Collator('pl', {sensitivity: 'base'}),[])
 
@@ -37,7 +37,7 @@ function ElementsCollection({name, restriction, description, iconPath, groupColo
         <div className="ElementsCollection" style={{ backgroundColor }}>
             <div className="container-fluid px-3">
                 <div className="TitleRow row-cols-2 mb-1">
-                    <div className="CollectionTitle text-start ps-2">{name}</div>
+                    <div className="CollectionTitle text-start fw-bold ps-2">{name}</div>
                     <div className="CollectionRestictions text-end pe-2">{restriction}</div>
                 </div>
                 <div className="CollectionBody row px-3" style={{ color: textColor }}>
@@ -49,7 +49,7 @@ function ElementsCollection({name, restriction, description, iconPath, groupColo
                                     <ElementCard
                                         name={item.name}
                                         shortDescription={item.shortDescription}
-                                        iconPath={iconPath}
+                                        iconPath={item.iconName ? `${process.env.PUBLIC_URL}/icons/${item.iconName}.png` : groupIconPath}
                                         textColor={textColor}
                                         onClick={() => handleButtonClick(item)}
                                     />

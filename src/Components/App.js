@@ -25,7 +25,7 @@ function App() {
                                   name={group.name}
                                   restriction={group.restriction}
                                   description={group.description}
-                                  iconPath={iconMap[group.iconPath]}
+                                  groupIconPath={iconMap[group.iconPath]}
                                   groupColor={group.groupColor}
               />
           ))}
