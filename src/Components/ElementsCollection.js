@@ -5,7 +5,7 @@ import {useMemo, useState} from 'react';
 import '../CSS/ElementsCollection.css';
 import elementInfoWindow from "./ElementInfoWindow";
 
-function ElementsCollection({name, restriction, description, groupIconPath, groupColor}) {
+function ElementsCollection({name, restriction, description, groupIconPath, groupColor, isDarkMode}) {
     const [elementInfoWindowData, setElementInfoWindowData] = useState({ isOpen: false, name: '', shortDescription: '', longDescription: '' });
     const collator = useMemo(() => new Intl.Collator('pl', {sensitivity: 'base'}),[])
 
@@ -40,7 +40,7 @@ function ElementsCollection({name, restriction, description, groupIconPath, grou
                     <div className="CollectionTitle text-start fw-bold ps-2">{name}</div>
                     <div className="CollectionRestictions text-end pe-2">{restriction}</div>
                 </div>
-                <div className="CollectionBody row px-3" style={{ color: textColor }}>
+                <div className={`CollectionBody row px-3 ${isDarkMode ? 'dark' : ''}`} style={{ color: textColor }}>
                     <div className="col d-flex align-items-center flex-column">
                         <div className="CollectionDescription row text-start">{description}</div>
                         <div className="CollectionElements row">
@@ -67,6 +67,7 @@ function ElementsCollection({name, restriction, description, groupIconPath, grou
                     shortDescription={elementInfoWindowData.shortDescription}
                     longDescription={elementInfoWindowData.longDescription}
                     groupColor={groupColor}
+                    isDarkMode={isDarkMode}
                 />
             )}
         </div>

@@ -56,6 +56,11 @@
     overflow-x: hidden;
 }
 
+.descriptionRow.dark {
+    background-color: #282c34;
+    color: white;
+}
+
 .shortDescriptionBody {
     margin-bottom: 10px;
     font-size: calc(5px + 2vmin);

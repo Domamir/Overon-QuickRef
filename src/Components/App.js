@@ -6,6 +6,8 @@ import swordsIcon from '../Assets/swords.png';
 import pouchIcon from '../Assets/pouch.png';
 import dangerIcon from '../Assets/danger.png';
 import skullIcon from '../Assets/skull.png';
+import {useEffect, useState} from "react";
+import ThemeToggleButton from "./ThemeToggleButton";
 
 const iconMap = {
     speed: speedIcon,
@@ -16,7 +18,20 @@ const iconMap = {
 };
 
 function App() {
-  return (
+    const [isDarkMode, setIsDarkMode] = useState(() => {
+        return localStorage.getItem('theme') === 'dark';
+    });
+
+    useEffect(() => {
+        const theme = isDarkMode ? 'dark' : 'light';
+        localStorage.setItem('theme', theme);
+    }, [isDarkMode]);
+
+    useEffect(() => {
+        document.body.classList.toggle('dark-theme', isDarkMode);
+    }, [isDarkMode]);
+
+    return (
     <div className="App">
       <main className="App-main container-fluid">
           {ElementsGroups.elementsGroups.map((group, index) => (
@@ -27,11 +42,15 @@ function App() {
                                   description={group.description}
                                   groupIconPath={iconMap[group.iconPath]}
                                   groupColor={group.groupColor}
+                                  isDarkMode={isDarkMode}
               />
           ))}
       </main>
+
+      <ThemeToggleButton isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
+
     </div>
-  );
+    );
 }
 
 export default App;

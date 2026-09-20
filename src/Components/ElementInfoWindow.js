@@ -1,6 +1,6 @@
 ﻿import '../CSS/ElementInfoWindow.css';
 
-function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescription, groupColor}) {
+function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescription, groupColor, isDarkMode}) {
 
     if (!isOpen)
     {
@@ -15,7 +15,7 @@ function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescri
                 <div className="titleRow text-start ps-2">
                     {name}
                 </div>
-                <div className="descriptionRow px-2">
+                <div className={`descriptionRow px-2 ${isDarkMode ? 'dark' : ''}`}>
                     {shortDescription?.trim() && (
                         <div className="shortDescriptionBody ps-1">
                             Cost: {shortDescription}
