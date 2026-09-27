@@ -1,11 +1,7 @@
 ﻿import '../CSS/ElementInfoWindow.css';
+import ElementDescription from "./ElementDescription";
 
-function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescription, groupColor, isDarkMode}) {
-
-    if (!isOpen)
-    {
-        return null;
-    }
+function  ElementInfoWindow({onClose, onReferenceClick, name, shortDescription, longDescription, groupColor, isDarkMode}) {
 
     const backgroundColor = groupColor || '#f0f0f0';
 
@@ -22,7 +18,7 @@ function  ElementInfoWindow({isOpen, onClose, name, shortDescription, longDescri
                         </div>
                     )}
                     <div className="longDescriptionBody ps-1">
-                        {longDescription}
+                        <ElementDescription text={longDescription} onReferenceClick={onReferenceClick} referenceColor={groupColor} />
                     </div>
                 </div>
             </div>

@@ -29,13 +29,13 @@
       {
         "name": "Hovering",
         "shortDescription": "Movement speed",
-        "longDescription": "If you have hovering speed you don't get penalties for walking on hard terrain, and can hover on liquids and not touch them.\nHovering speed lets you be in air when you are prone and have flying speed. \nHovering speed does not stop normal falling and falling damage.",
+        "longDescription": "If you have hovering speed you don't get penalties for walking on hard terrain, and can hover on liquids and not touch them.\nHovering speed lets you be in air when you are {{prone}} and have {{flying speed}}. \nHovering speed does not stop normal falling and falling damage.",
         "iconName": "hover"
       },
       {
         "name": "Flying speed",
         "shortDescription": "Movement speed",
-        "longDescription": "While having flying speed, your character can fly in air and similiar gasses.\nIf while flying you get prone, you will fall unless you have hovering speed or other method to prevent that.",
+        "longDescription": "While having flying speed, your character can fly in air and similiar gasses.\nIf while flying you get {{prone}}, you will fall unless you have {{hovering}} speed or other method to prevent that.",
         "iconName": "flying"
       },
       {
@@ -47,7 +47,7 @@
       {
         "name": "Spider climb speed",
         "shortDescription": "Movement speed",
-        "longDescription": "If you have spider climb you have climbing speed, but in addition, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.\nIt eliminates any check that will force a creature to fall other that terrain beeing slippery or you falling with rubble you walked on.\nSlippery and wet terrain will force character to make acrobatics check (dm decides DC) If haracter fails it will fall.",
+        "longDescription": "If you have spider climb you have {{climbing speed}}, but in addition, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.\nIt eliminates any check that will force a creature to fall other that terrain beeing slippery or you falling with rubble you walked on.\nSlippery and wet terrain will force character to make acrobatics check (dm decides DC) If haracter fails it will fall.",
         "iconName": "spiderClimb"
       },
       {
@@ -77,7 +77,7 @@
       {
         "name": "Movement token interaction",
         "shortDescription": "Instruction",
-        "longDescription": "Ending turn on other token space\nYou cannot end your turn in other active token space. \nIf you somehow end up in other token space at the end of THAT turn you are foced out into nearest unoccupied space.\n If there isn't one you will be forced to have squeeze status with the other token you share space.\nTo do that you have to be 2 sizes smaller.\n\nGoing threw token forcefully\nTo go through an active token you have to use Tumble through action or have that token be willing to let you go through.\nGoing through that token will make that space one tier higher in difficult terrain. \nIf you are two sizes smaller that token you go through you don't have that penalty.",
+        "longDescription": "Ending turn on other token space\nYou cannot end your turn in other active token space. \nIf you somehow end up in other token space at the end of THAT turn you are foced out into nearest unoccupied space.\n If there isn't one you will be forced to have squeeze status with the other token you share space.\nTo do that you have to be 2 sizes smaller.\n\nGoing threw token forcefully\nTo go through an active token you have to use {{Tumble through}} action or have that token be willing to let you go through.\nGoing through that token will make that space one tier higher in difficult terrain. \nIf you are two sizes smaller that token you go through you don't have that penalty.",
         "iconName": "tokenInteraction"
       }
     ]
@@ -88,7 +88,7 @@
       {
         "name": "Attack",
         "shortDescription": "Main action",
-        "longDescription": "Basic information\nAttack action uses main action to allow you to gain strikes in this turn ( named differently to avoid confusion) \nYou gain as many strikes as your character allows you to. Mostly you will get two strikes.\n\nStrike:\nYou can preform strike with your weapon. Any natural weapon such as claws or your fist counts as a weapon to.\nWhen you make strike you roll d20 and add dexterity plus other bonuses and panalties. To see if you hit and compare result to AC of target you try to hit. It goes like this:\nFor all strikes: 1d20 + Dex mod + proficiency bonus + other bonuses + penalties\n\nDamage from strike:\nIf you hit with strike you roll for the damage it inflicts. It goes like this:\nFor melee strikes and thrown weapons: (damage dice of weapon you hit) + STR mod + other bonuses + penalties \nFor ranged strikes  (damage dice of weapon you hit) + Halved DEX mod (rounded down)    + other bonuses + penalties. \nFinesse weapons will have alternative option to use the same formula as renged strike to deal damage.\n\nFlanking:\nTo flank a foe, you and your ally must be on opposite sides of the creature.\n A line drawn between the center of your space and the center of your ally's space must pass through opposite sides or opposite corners of the foe's space.\n Additionally, both you and the ally have to be able to act, so this creature cannot be for example pertified, unconcious, stunned, paralized etc. \nIf creature is flanked all creatures gain +2 to hit this creature and +2 to forcing athletics and acrobatics rolls against it. \n\nCritical hit:\nIf you roll natural one on d20 dice you will always fail to hit a target.\nIf you roll a natural 20 on d20 dice you will always hit and get critical strike witch deals 2x damage\n"
+        "longDescription": "Basic information\nAttack action uses main action to allow you to gain strikes in this turn ( named differently to avoid confusion) \nYou gain as many strikes as your character allows you to. Mostly you will get two strikes.\n\nStrike:\nYou can preform strike with your weapon. Any natural weapon such as claws or your fist counts as a weapon to.\nWhen you make strike you roll d20 and add dexterity plus other bonuses and panalties. To see if you hit and compare result to AC of target you try to hit. It goes like this:\nFor all strikes: 1d20 + Dex mod + proficiency bonus + other bonuses + penalties\n\nDamage from strike:\nIf you hit with strike you roll for the damage it inflicts. It goes like this:\nFor melee strikes and thrown weapons: (damage dice of weapon you hit) + STR mod + other bonuses + penalties \nFor ranged strikes  (damage dice of weapon you hit) + Halved DEX mod (rounded down)    + other bonuses + penalties. \nFinesse weapons will have alternative option to use the same formula as renged strike to deal damage.\n\nFlanking:\nTo flank a foe, you and your ally must be on opposite sides of the creature.\n A line drawn between the center of your space and the center of your ally's space must pass through opposite sides or opposite corners of the foe's space.\n Additionally, both you and the ally have to be able to act, so this creature cannot be for example {{petrified}}, {{unconscious}}, {{stunned}}, {{paralyzed}} etc. \nIf creature is flanked all creatures gain +2 to hit this creature and +2 to forcing athletics and acrobatics rolls against it. \n\nCritical hit:\nIf you roll natural one on d20 dice you will always fail to hit a target.\nIf you roll a natural 20 on d20 dice you will always hit and get critical strike witch deals 2x damage\n"
       },
       {
         "name": "Grapple",
@@ -99,7 +99,7 @@
       {
         "name": "Trip",
         "shortDescription": "One strike or main action",
-        "longDescription": "Basic information\nYou spend one strike or main action to trip a creature and make it prone within your arm or weapon reach. You can trip creatures with your arm or with weapon that makes sense. (for example you cannot trip with sling) \nYou can trip creatures one size bigger than you, but you have disadvantage on roll for every size increase after 1 size that is larger than you. \n\nTrip roll\nTo trip you need to roll (1d20 + athletics skill bonus + other bonuses and penalties) and compare result to the creature roll (1d20 + athletics or acrobatics + other bonuses and penalties) . If enemy result will e equal or higher than yours you loose.\nIf you succed you apply prone status to that creature.",
+        "longDescription": "Basic information\nYou spend one strike or main action to trip a creature and make it prone within your arm or weapon reach. You can trip creatures with your arm or with weapon that makes sense. (for example you cannot trip with sling) \nYou can trip creatures one size bigger than you, but you have disadvantage on roll for every size increase after 1 size that is larger than you. \n\nTrip roll\nTo trip you need to roll (1d20 + athletics skill bonus + other bonuses and penalties) and compare result to the creature roll (1d20 + athletics or acrobatics + other bonuses and penalties) . If enemy result will e equal or higher than yours you loose.\nIf you succeed you apply {{prone}} status to that creature.",
         "iconName": "tripAction"
       },
       {
@@ -111,13 +111,13 @@
       {
         "name": "Escape",
         "shortDescription": "One strike or main action",
-        "longDescription": "Basic information\nYou spend one strike or main action to attempt an escpae from grabbed, immobilized or restrained \n\nEscape Roll\nTo get yourself free from one restrain you have to  use your athletics or acrobatics and compare it to enemy athletics check OR compare it to the DC of hazard such as rope. (Rope tie DC = 10+ survival skill bonus + other bonuses and penalties)\nI enemy is grappling you it counts as grapple attempt for him. If enemy result will be equal or higher than yours you loose.\nIf you succed you get free from that status/situation.",
+        "longDescription": "Basic information\nYou spend one strike or main action to attempt an escpae from grabbed, immobilized or {{restrained}} \n\nEscape Roll\nTo get yourself free from one restrain you have to  use your athletics or acrobatics and compare it to enemy athletics check OR compare it to the DC of hazard such as rope. (Rope tie DC = 10+ survival skill bonus + other bonuses and penalties)\nI enemy is grappling you it counts as {{grapple}} attempt for him. If enemy result will be equal or higher than yours you loose.\nIf you succed you get free from that status/situation.",
         "iconName": "escapeAction"
       },
       {
         "name": "Disarm",
         "shortDescription": "One strike or main action",
-        "longDescription": "Basic information\nYou make one strike like normal (using attack action) or main action to  try to disarm other creature holding item or a weapon and force creature to drop it., Alternatively you can distrubt their wellbeeing giving penalties.\nYou can disarm with your hand or with weapon.\nYou can disarm creatures 1 size bigger than you, but you have disadvantage on roll for every size increase after 1 size that is larger than you. \n\nDisarm roll\nYou make strike against chosen creature as normal, but with with disadvantage. Using ranged weapon gives another disadvantage. \n If you would hit this creature with that strike on its AC you succed and can choose to disarm a weapon or disarm creature wellbeeing\nSucceding on disarming a weapon will cause creature to drop it and it suffers half damage from weapon strike (rounded down)\nSucceding on distrubting a creature will cause creature to have disarmed status untill the start of your next turn and creature suffers half damage from weapon strike. (rounded down)\n\nIf you fail nothing happends\nNote: If you have additional damage that has its source outside a weapon like smite feat from caster feat table. It will not be halved.",
+        "longDescription": "Basic information\nYou make one strike like normal (using {{attack}} action) or main action to  try to disarm other creature holding item or a weapon and force creature to drop it., Alternatively you can distrubt their wellbeeing giving penalties.\nYou can disarm with your hand or with weapon.\nYou can disarm creatures 1 size bigger than you, but you have disadvantage on roll for every size increase after 1 size that is larger than you. \n\nDisarm roll\nYou make strike against chosen creature as normal, but with with disadvantage. Using ranged weapon gives another disadvantage. \n If you would hit this creature with that strike on its AC you succed and can choose to disarm a weapon or disarm creature wellbeeing\nSucceding on disarming a weapon will cause creature to drop it and it suffers half damage from weapon strike (rounded down)\nSucceding on distrubting a creature will cause creature to have {{disarmed}} status untill the start of your next turn and creature suffers half damage from weapon strike. (rounded down)\n\nIf you fail nothing happends\nNote: If you have additional damage that has its source outside a weapon like smite feat from caster feat table. It will not be halved.",
         "iconName": "disarmAction"
       },
       {
@@ -129,25 +129,25 @@
       {
         "name": "Prevent",
         "shortDescription": "One strike or main action",
-        "longDescription": "Basic information\nWhen you are grappling a creature you can go one step further. \nYou spend one strike or main action  to prevent body part functioning, like hold jaw, cover eyes or  hold limb.\nRequired hands are listed in options section.\nYou can prevent creatures 1 size bigger than you, but you have disadvantage on roll for every size increase after 1 size that is larger than you. \n\n\nPrevent roll\nTo prevent you have to make roll (1d20 + athletics skill bonus + other bonuses and penalties ) and compare result to the enemy roll (1d20+athletics or acrobatic + other bonuses and penalties). If enemy result will be equal or higher than yours you loose.\nWhen creature escapes your grapple it loses any prevention. \n\nOptions:\n(Requires both hands) Jaw hold/Covered mouth : Creature cannot make bite, tongue or other strike using mouth. Creature is silenced and can only muffle speak. Using this feature on creature two size larger will not silence it. \n(One hand can hold one limb) Hold hand/limb: Creature cannot use this arm/limb for anything. Prevents dual wield and other things that make sense like using two handed weapons etc. Creatures have advantage to disarm or steal things from this hand. \n(Requires both hands)Cover eyes: Creature now cannot see and is blinded. Using this feature on creature one size larger will not blind it. if cyclop is the target and is the same size as you it will not work due to size of an eye. \n\nAdditionall information\nYou can prevent of maximum creature size of 2 size bigger (it cannot be increased)\nYou need to use both hands to prevent limb of creature 1 size bigger.",
+        "longDescription": "Basic information\nWhen you are grappling a creature you can go one step further. \nYou spend one strike or main action  to prevent body part functioning, like hold jaw, cover eyes or  hold limb.\nRequired hands are listed in options section.\nYou can prevent creatures 1 size bigger than you, but you have disadvantage on roll for every size increase after 1 size that is larger than you. \n\n\nPrevent roll\nTo prevent you have to make roll (1d20 + athletics skill bonus + other bonuses and penalties ) and compare result to the enemy roll (1d20+athletics or acrobatic + other bonuses and penalties). If enemy result will be equal or higher than yours you loose.\nWhen creature escapes your grapple it loses any prevention. \n\nOptions:\n(Requires both hands) Jaw hold/Covered mouth : Creature cannot make bite, tongue or other strike using mouth. Creature is silenced and can only muffle speak. Using this feature on creature two size larger will not silence it. \n(One hand can hold one limb) Hold hand/limb: Creature cannot use this arm/limb for anything. Prevents dual wield and other things that make sense like using two handed weapons etc. Creatures have advantage to {{disarm}} or {{steal}} things from this hand. \n(Requires both hands)Cover eyes: Creature now cannot see and is {{blinded}}. Using this feature on creature one size larger will not blind it. if cyclop is the target and is the same size as you it will not work due to size of an eye. \n\nAdditionall information\nYou can prevent of maximum creature size of 2 size bigger (it cannot be increased)\nYou need to use both hands to prevent limb of creature 1 size bigger.",
         "iconName": "preventAction"
       },
       {
         "name": "Use item",
         "shortDescription": "Main action",
-        "longDescription": "Basic information\nYou spend main action to use item as described in titem. \n\nScrolls:\nTo get more information on scrolls you have to read said scrolls and  feat  \"\"Use magic items\"\" from arkana table\nScrolls will use action from \"\"Casting time\"\" scroll spell.\nScrolls can have Spell strengthen stickers, if you cannot use them you can still use spell scroll. Stickers won't be used. \n\nPotions:\nYou can drink potions and make some other willing creature drink it. You cannot make unconcious creature drink a potion, it will be wasted. You have to buy this potion in syringe or put it in there.\nTo administer syringe to unwilling creature you have use your normal strike (not this action) with syringe as improvised weapon and hit temporary or life hit points. Syringe have additional tags (light, finnese, concealable) and will deal 1d2 piercing damage \n\nCoat poisons:\nAll poisons can be coated on weapons, but only shashing and piercing will do anything. You can coat with one poison one weapon with three charges or three ammunitions with one charge (bullet have to be specially made)\nWhen this ammunition or weapon will hit a creature it will loose one charge of poison and if damage hit temporary or life hit points it will trigger its effect on that creature. \nCoating will last untill poison is removed. \n\n\nHiding or Concealing item\nYou can use this action to hide trap or item in enviroment or on your belongings. Weapons with \"\"conceal\"\" tag can be hidden and benefit from Big cover bonus from clothes. (+5)\nThe DC to spot this said item/trap with perception is rolled (1d20 + thievery or survival ability bonus + other bonuses and penalties) \nPassive perception can detect them.",
+        "longDescription": "Basic information\nYou spend main action to use item as described in titem. \n\nScrolls:\nTo get more information on scrolls you have to read said scrolls and  feat  \"\"Use magic items\"\" from arkana table\nScrolls will use action from \"\"Casting time\"\" scroll spell.\nScrolls can have Spell strengthen stickers, if you cannot use them you can still use spell scroll. Stickers won't be used. \n\nPotions:\nYou can drink potions and make some other willing creature drink it. You cannot make {{unconscious}} creature drink a potion, it will be wasted. You have to buy this potion in syringe or put it in there.\nTo administer syringe to unwilling creature you have use your normal strike (not this action) with syringe as improvised weapon and hit temporary or life hit points. Syringe have additional tags (light, finnese, concealable) and will deal 1d2 piercing damage \n\nCoat poisons:\nAll poisons can be coated on weapons, but only shashing and piercing will do anything. You can coat with one poison one weapon with three charges or three ammunitions with one charge (bullet have to be specially made)\nWhen this ammunition or weapon will hit a creature it will loose one charge of poison and if damage hit temporary or life hit points it will trigger its effect on that creature. \nCoating will last untill poison is removed. \n\n\nHiding or Concealing item\nYou can use this action to hide trap or item in enviroment or on your belongings. Weapons with \"\"conceal\"\" tag can be hidden and benefit from Big cover bonus from clothes. (+5)\nThe DC to spot this said item/trap with perception is rolled (1d20 + thievery or survival ability bonus + other bonuses and penalties) \nPassive perception can detect them.",
         "iconName": "useItemAction"
       },
       {
         "name": "Ready",
         "shortDescription": "Main action, then reaction",
-        "longDescription": "Basic information\nYou spend an action for it to be spend on specific reaction springed on moment described by you.\nYou can strike only one time when you do the Attack action.\nEven if you meet requirements for reaction to spring, you don't need to do that reaction.\n\nReady action: Dash action (movement option)\nWhen you use ready action to use dash action you are not granted speed bonuses from dash action, instead you can use stored movement  and move as you like, but once you move and stop the ready action is stopped. ",
+        "longDescription": "Basic information\nYou spend an action for it to be spend on specific reaction springed on moment described by you.\nYou can strike only one time when you do the {{Attack}} action.\nEven if you meet requirements for reaction to spring, you don't need to do that reaction.\n\nReady action: {{Dash}} action (movement option)\nWhen you use ready action to use dash action you are not granted speed bonuses from dash action, instead you can use stored movement  and move as you like, but once you move and stop the ready action is stopped. ",
         "iconName": "readyAction"
       },
       {
         "name": "Dash",
         "shortDescription": "Main action",
-        "longDescription": "Basic information\nWhen you take the Dash action, you gain extra movement for the current turn and gain one melee strike that will be made with duble disadvantage and using it will end your whole movement. \nThe increase equals to your maximum speed.\n\nBonus tumble threw action\nWhen you use dash action can also attempt one  tumble through enemy creature space. (See tumble through action)\n\nExamples\n With a speed of 6 squares, for example, you can move up to 12 squares on your turn if you dash.\nAny increase or decrease to your speed changes this additional movement by the same amount. If your speed of 6 squares is reduced to 3 squares, for instance, you can move up to 6 squares this turn if you sprint.",
+        "longDescription": "Basic information\nWhen you take the Dash action, you gain extra movement for the current turn and gain one melee strike that will be made with duble disadvantage and using it will end your whole movement. \nThe increase equals to your maximum speed.\n\nBonus {{tumble through}} action\nWhen you use dash action can also attempt one  tumble through enemy creature space. (See tumble through action)\n\nExamples\n With a speed of 6 squares, for example, you can move up to 12 squares on your turn if you dash.\nAny increase or decrease to your speed changes this additional movement by the same amount. If your speed of 6 squares is reduced to 3 squares, for instance, you can move up to 6 squares this turn if you sprint.",
         "iconName": "dashAction"
       },
       {
@@ -159,7 +159,7 @@
       {
         "name": "Disengage",
         "shortDescription": "Main action",
-        "longDescription": "Basic information\nIf you take the Disengage action, your movement doesn’t provoke opportunity strikes untill the start of your next turn.\n\nBonus tumble threw action\nWhen you use disengage action can also attempt one  tumble through enemy creature space. (See tumble through action)",
+        "longDescription": "Basic information\nIf you take the Disengage action, your movement doesn’t provoke {{opportunity strike}}s untill the start of your next turn.\n\nBonus {{tumble through}} action\nWhen you use disengage action can also attempt one  {{tumble through}} enemy creature space. (See tumble through action)",
         "iconName": "disengageAction"
       },
       {
@@ -171,13 +171,13 @@
       {
         "name": "Distract",
         "shortDescription": "Main action or Bonus action",
-        "longDescription": "Basic information\nYou use your main action or bonus action to distract enemies from something. \nSpecify targets of distraction, like you doing some stupid faces in front of guard or throwing rock at certain location. You can choose how much enemies you want to affect, but dm will decide that. \nYou then roll 1d20 + deception skill bonus and compare result to the enemy DC of 10 + perception/insight skill bonus (depending on nature of distraction)\n\nSucces: You succesfully apply distracted status to the target speciific for your action untill your next end of turn.\nFailure: Target of your distraction saw threw your distracion or didn't bother with it.",
+        "longDescription": "Basic information\nYou use your main action or bonus action to distract enemies from something. \nSpecify targets of distraction, like you doing some stupid faces in front of guard or throwing rock at certain location. You can choose how much enemies you want to affect, but dm will decide that. \nYou then roll 1d20 + deception skill bonus and compare result to the enemy DC of 10 + perception/insight skill bonus (depending on nature of distraction)\n\nSucces: You succesfully apply {{distracted}} status to the target speciific for your action untill your next end of turn.\nFailure: Target of your distraction saw threw your distracion or didn't bother with it.",
         "iconName": "distractAction"
       },
       {
         "name": "Hide",
         "shortDescription": "Main action",
-        "longDescription": "Basic information\nWhen you take the Hide action, you try to not get observed and gain hidden status for creatures that have truble sensing you. \nUsing visions, lightning, cover and distractions you can change from observed to noticed. \nCover gives bonuses to stealth. \n\nYou spend main action to try to hide.\nYou then roll 1d20+dex mod + stealth proficiency + other bonuses and penalties and compare it to passive perception of creatures you are able to hide against.\n Hiding fails when in space of hiding you are still clearly seen/sensed.",
+        "longDescription": "Basic information\nWhen you take the Hide action, you try to not get observed and gain {{hidden}} status for creatures that have truble sensing you. \nUsing visions, lightning, cover and distractions you can change from observed to noticed. \nCover gives bonuses to stealth. \n\nYou spend main action to try to hide.\nYou then roll 1d20+dex mod + stealth proficiency + other bonuses and penalties and compare it to passive perception of creatures you are able to hide against.\n Hiding fails when in space of hiding you are still clearly seen/sensed.",
         "iconName": "hideAction"
       },
       {
@@ -201,7 +201,7 @@
       {
         "name": "Delay turn",
         "shortDescription": "Main action, then free action",
-        "longDescription": "Basic information\n\nTo do this action you have to be concious and essentially, you can't Delay to avoid negative consequences that would happen on your turn or to extend beneficial effects that would end on your turn.\nSo for example if your character have lured, frenzied or hypnotized status, it cannot delay its turn.\n\n\nYou wait for the right moment to act. The rest of your turn doesn't happen yet. \nInstead, you're removed from the initiative order.\nYou can return to the initiative order as a free action triggered by the end of any other creature's turn.\nThis permanently changes your initiative to the new position. \nYou can't use reactions until you return to the initiative order. \nIf you Delay an entire round without returning to the initiative order, the actions from the Delayed turn are lost,\n your initiative doesn't change, and your next turn occurs at your original position in the initiative order.\nWhen you Delay, any  negative effects that normally occur at the start or end of your turn occur immediately when you use the Delay action. \nAny beneficial effects that would end at any point during your turn also end.\nThe GM might determine that other effects end when you Delay as well. ",
+        "longDescription": "Basic information\n\nTo do this action you have to be concious and essentially, you can't Delay to avoid negative consequences that would happen on your turn or to extend beneficial effects that would end on your turn.\nSo for example if your character have {{lured}}, {{frenzied}} or {{hypnotized}} status, it cannot delay its turn.\n\n\nYou wait for the right moment to act. The rest of your turn doesn't happen yet. \nInstead, you're removed from the initiative order.\nYou can return to the initiative order as a free action triggered by the end of any other creature's turn.\nThis permanently changes your initiative to the new position. \nYou can't use reactions until you return to the initiative order. \nIf you Delay an entire round without returning to the initiative order, the actions from the Delayed turn are lost,\n your initiative doesn't change, and your next turn occurs at your original position in the initiative order.\nWhen you Delay, any  negative effects that normally occur at the start or end of your turn occur immediately when you use the Delay action. \nAny beneficial effects that would end at any point during your turn also end.\nThe GM might determine that other effects end when you Delay as well. ",
         "iconName": "delayTurnAction"
       },
       {
@@ -213,30 +213,30 @@
       {
         "name": "Dispel magic",
         "shortDescription": "Main action",
-        "longDescription": "Requires: Acces to mana or mana pool\n\nYou use main action for this feature. It has range of a 6 cubes and requires precise sense. \nYou can target a creature, object or spell that you know about.\nYou then spend same amount of mana that the spell was created with and need to roll on arkana.\nDC is 12+mana spend on spell tha is going to be dispelled.\nThis ability can dispell also magical barriers that grant AC or other magical fenomenons from NPC creatures.\n The DC to dispell them is the AC of creature you target. You can target magic by beeing blinded when you have magic vision.\n\nIf you fail you loose 1 mana, you will loose 0 mana if spell was worth only 1 mana.\n\nIf you fail the check, mana used is refunded. ",
+        "longDescription": "Requires: Access to mana or mana pool\n\nYou use main action for this feature. It has range of a 6 cubes and requires precise sense. \nYou can target a creature, object or spell that you know about.\nYou then spend same amount of mana that the spell was created with and need to roll on arkana.\nDC is 12+mana spend on spell tha is going to be dispelled.\nThis ability can dispell also magical barriers that grant AC or other magical fenomenons from NPC creatures.\n The DC to dispell them is the AC of creature you target. You can target magic by beeing blinded when you have magic vision.\n\nIf you fail you loose 1 mana, you will loose 0 mana if spell was worth only 1 mana.\n\nIf you fail the check, mana used is refunded. ",
         "iconName": "dispelMagic"
       },
       {
         "name": "Assist",
         "shortDescription": "Main action",
-        "longDescription": "Basic infromation\nYou spend main action to assist a creature within your arm reach and use one option below:\n\nGetting up creature\nYou can use half of your movement (rounded down) and lift willing creature from prone status using one hand. Bigger creatures require both hands. You can do this action to maximum creature 1 size bigger  \n(Size increase on ahletics skill works) This does not trigger opportunity strike. \nUntie a creature\nYou can attempt to free a creature from restrains. Simple untying from rope or webbing of spiders. Attempt athletics or survival skill check against DC of restrain, grab or other simirar status. \nExtinguish\nYou can try to extinguish a creature or item by using half of your movement (rounded down)\nWake up\nYou can wake someone up from unconcious (asleep) condition.\nHelp reach higher/further distance\nYou can help creature to get higher. (requires shield, free hand or weapon that makes sense) It boosts jump by your push distance (basically 1 cube)\nSnap out\nYou can trigger saving throw to get rid of hypnotized, controlled, confused\nAssist in battle\nYou can cause friendly (other than yourself) creature to make strike, athleics check or acrobatics check be made with advantage. You have to use assist action and specify you are going to assist, if creature preforms a strike or athletics check against \na creature within your melee weapon reach you can give advantage to a creature that tries to use this strike or athletics action. To give advantage on acrobatics check you have to have to have creature you want to assist within our weapon reach. \n\nStabilization\nYou can stabilize only alive creatures.\nYou roll (1d20+medicine skill + other bonuses and penalties) and compare roll to the stabilization DC of a creature. (make recall knowledge on creature to know the DC) (DC is in races table or in monster statblock)\n If you pass the creature is stable and will not need to roll death saving throws. Stable person will regain conciousness in 1 hour getting 1 life hit point.. \nIf you fail nothing happends, If you fail by 5 points or more you give creature +1 wounded status potentially killing it. \n\nAdminister potion\nYou can administer syringe potion into a willing creature . (just like use item action) (yourself included)\nTo administer syringe to unwilling creature you have use your normal strike (not this action) with syringe as improvised weapon and hit temporary or life hit points. Syringe have additional tags (light, finnese, concealable) and will deal 1d2 piercing damage \n\nGive air\nYou can give by mouth to mouth designated air from you into a creature lungs. \n\nPrevent bleeding\nYou roll (1d20+medicine skill + other bonuses and penalties) and combare roll to the DC of a bleeding. If result ids equal or higher , bleeding will be removed \nFailure by -5 the DC - creature recieves bleed damage\n\n(Advanced)Treat diesease: \nIf you have appropriate proficiency to deal with diesease you can spend 4 hours to care for 1 creature. Creature can make next diesease saving throw with advantage.\n\nSucces by 5+ the DC - Creature will make saving throw with duble advantage\nSucces - Diesease status is 1 tier lowered\n\nFailure by -5 the DC - Diesease status is 1 tier lowered\n\nOther: If there is status that is important to treat with medicine you can use similiar formula to the prevention of bleeding or treating diesease.\n\nHelping with task\nYou can help in tasks that you are capable of helping, by dungeon master discretion this task can have DC lowered or consume less time.",
+        "longDescription": "Basic information\nYou spend main action to assist a creature within your arm reach and use one option below:\n\nGetting up creature\nYou can use half of your movement (rounded down) and lift willing creature from {{prone}} status using one hand. Bigger creatures require both hands. You can do this action to maximum creature 1 size bigger  \n(Size increase on ahletics skill works) This does not trigger {{opportunity strike}}. \nUntie a creature\nYou can attempt to free a creature from restrains. Simple untying from rope or webbing of spiders. Attempt athletics or survival skill check against DC of restrain, grab or other simirar status. \nExtinguish\nYou can try to extinguish a creature or item by using half of your movement (rounded down)\nWake up\nYou can wake someone up from {{unconscious}} (asleep) condition.\nHelp reach higher/further distance\nYou can help creature to get higher. (requires shield, free hand or weapon that makes sense) It boosts jump by your push distance (basically 1 cube)\nSnap out\nYou can trigger saving throw to get rid of {{hypnotized}}, {{controlled}}, {{confused}}\nAssist in battle\nYou can cause friendly (other than yourself) creature to make strike, athleics check or acrobatics check be made with advantage. You have to use assist action and specify you are going to assist, if creature preforms a strike or athletics check against \na creature within your melee weapon reach you can give advantage to a creature that tries to use this strike or athletics action. To give advantage on acrobatics check you have to have to have creature you want to assist within our weapon reach. \n\nStabilization\nYou can stabilize only alive creatures.\nYou roll (1d20+medicine skill + other bonuses and penalties) and compare roll to the stabilization DC of a creature. (make recall knowledge on creature to know the DC) (DC is in races table or in monster statblock)\n If you pass the creature is stable and will not need to roll death saving throws. Stable person will regain conciousness in 1 hour getting 1 life hit point.. \nIf you fail nothing happends, If you fail by 5 points or more you give creature +1 wounded status potentially killing it. \n\nAdminister potion\nYou can administer syringe potion into a willing creature . (just like use item action) (yourself included)\nTo administer syringe to unwilling creature you have use your normal strike (not this action) with syringe as improvised weapon and hit temporary or life hit points. Syringe have additional tags (light, finnese, concealable) and will deal 1d2 piercing damage \n\nGive air\nYou can give by mouth to mouth designated air from you into a creature lungs. \n\nPrevent {{bleeding}}\nYou roll (1d20+medicine skill + other bonuses and penalties) and combare roll to the DC of a bleeding. If result ids equal or higher , bleeding will be removed \nFailure by -5 the DC - creature recieves bleed damage\n\n(Advanced)Treat diesease: \nIf you have appropriate proficiency to deal with diesease you can spend 4 hours to care for 1 creature. Creature can make next diesease saving throw with advantage.\n\nSucces by 5+ the DC - Creature will make saving throw with duble advantage\nSucces - Diesease status is 1 tier lowered\n\nFailure by -5 the DC - Diesease status is 1 tier lowered\n\nOther: If there is status that is important to treat with medicine you can use similiar formula to the prevention of bleeding or treating diesease.\n\nHelping with task\nYou can help in tasks that you are capable of helping, by dungeon master discretion this task can have DC lowered or consume less time.",
         "iconName": "assistAction"
       },
       {
         "name": "Latch on (Experimental)",
         "shortDescription": "One strike",
-        "longDescription": "Basic infromation\nYou spend one strike to grapple an creature within your arm reach.\n\n\nYou can hang on creatures that are 2 size larger than you and you need to spend half of your maximum movement (rounded down)\nWilling creature does not require rolling. \nYou then roll 1d20 + athletics or acrobatics skill bonus and compare result to the enemy roll 1d20+athletics or acrobatics. If enemy result will e equal or higher than yours you loose.\nIf you succed you climb onto a creature.\nTo hang on creature you have to have two hands free or have something to hango on to. (Climbing rules)\nNow you move with that creature and can climb it. \nAny climbing reated feat and climbing speed will apply to this.\nYour equipment and you will add bulk to the creature you hang onto. \nCreature you hang on have disadvantage to strike you.\nGetting off takes your half of maximum movement (rounded down)\nBeeing grappled or restrained will get you off creature you hang on. "
+        "longDescription": "Basic information\nYou spend one strike to {{grapple}} an creature within your arm reach.\n\n\nYou can hang on creatures that are 2 size larger than you and you need to spend half of your maximum movement (rounded down)\nWilling creature does not require rolling. \nYou then roll 1d20 + athletics or acrobatics skill bonus and compare result to the enemy roll 1d20+athletics or acrobatics. If enemy result will e equal or higher than yours you loose.\nIf you succed you climb onto a creature.\nTo hang on creature you have to have two hands free or have something to hango on to. (Climbing rules)\nNow you move with that creature and can climb it. \nAny climbing reated feat and climbing speed will apply to this.\nYour equipment and you will add bulk to the creature you hang onto. \nCreature you hang on have disadvantage to strike you.\nGetting off takes your half of maximum movement (rounded down)\nBeeing {{grappled}} or {{restrained}} will get you off creature you hang on. "
       },
       {
         "name": "Recall knowledge",
         "shortDescription": "Main action",
-        "longDescription": "Basic infromation\nYou can use action to think about what are you encountering. Based on how many hints you have you can have DC lowered or hightened by Dungeon master\nWhen you are about to use recall knowledge dungeon master presents you with required skill for roll. Then you can decide if you want to attempt that action.\nEvery creature have in their statblock DC of that recall knowledge. Depending on roll dungeon master can give this creature informations about their attacks, behaviours and so on or lie when silent roll is very bad.",
+        "longDescription": "Basic information\nYou can use action to think about what are you encountering. Based on how many hints you have you can have DC lowered or hightened by Dungeon master\nWhen you are about to use recall knowledge dungeon master presents you with required skill for roll. Then you can decide if you want to attempt that action.\nEvery creature have in their statblock DC of that recall knowledge. Depending on roll dungeon master can give this creature informations about their attacks, behaviours and so on or lie when silent roll is very bad.",
         "iconName": "recallKnowledge"
       },
       {
         "name": "Throw creature",
         "shortDescription": "One strike or main action",
-        "longDescription": "Basic infromation\nTo throw a creature you have to grapple it, have second hand free and it has to be the one same size lower than you.  (any increase from feats works)\nWhen you meet all requirements you can just throw a creature using one strike or main action.\nThrow is not possible if creature exceeds your whole bulk limit.\nExceeding first stage of encumberment decreases thrown distance by half.\n\nDistance (no roll required)\nThe distance of throwing a creature is 1 cube of movement per creature and equipment bulk times your \"\"free\"\" bulk space untill second stage of encumberment. Throwing a creature upwards costs 2x times more\nYou can throw a creature where you want. ",
+        "longDescription": "Basic information\nTo throw a creature you have to {{grapple}} it, have second hand free and it has to be the one same size lower than you.  (any increase from feats works)\nWhen you meet all requirements you can just throw a creature using one strike or main action.\nThrow is not possible if creature exceeds your whole bulk limit.\nExceeding first stage of encumberment decreases thrown distance by half.\n\nDistance (no roll required)\nThe distance of throwing a creature is 1 cube of movement per creature and equipment bulk times your \"\"free\"\" bulk space untill second stage of encumberment. Throwing a creature upwards costs 2x times more\nYou can throw a creature where you want. ",
         "iconName": "throwCreatureAction"
       }
     ]
@@ -247,7 +247,7 @@
       {
         "name": "Distract",
         "shortDescription": "Main action or bonus action",
-        "longDescription": "Basic information\nYou use your main action or bonus action to distract enemies from something. \nSpecify targets of distraction, like you doing some stupid faces in front of guard or throwing rock at certain location. You can choose how much enemies you want to affect, but dm will decide that. \nYou then roll 1d20 + deception skill bonus and compare result to the enemy DC of 10 + perception/insight skill bonus (depending on nature of distraction)\n\nSucces: You succesfully apply distracted status to the target speciific for your action untill your next end of turn.\nFailure: Target of your distraction saw threw your distracion or didn't bother with it.",
+        "longDescription": "Basic information\nYou use your main action or bonus action to distract enemies from something. \nSpecify targets of distraction, like you doing some stupid faces in front of guard or throwing rock at certain location. You can choose how much enemies you want to affect, but dm will decide that. \nYou then roll 1d20 + deception skill bonus and compare result to the enemy DC of 10 + perception/insight skill bonus (depending on nature of distraction)\n\nSucces: You succesfully apply {{distracted}} status to the target speciific for your action untill your next end of turn.\nFailure: Target of your distraction saw threw your distracion or didn't bother with it.",
         "iconName": "distractAction"
       }
     ]
@@ -282,7 +282,7 @@
       {
         "name": "Opportunity strike",
         "shortDescription": "Reaction",
-        "longDescription": "Basic infromation\nOpportunity strike is always made with disadvantage and you have to precisely sense a creature or feel it (like grappling it).\nAny bonus thing you do after succesfull opportunity strike is made with the same penalty. \nYou can only do this reaction using a melee weapon strike, thrown or ranged strike does not work.\n\nYou are granted to make opportunity strike after one of these things happend :\n\nWhen enemy creature moves out of your reach of your weapon.\nWhen enemy creature casts a spell within reach of your weapon. \nWhen enemy makes a ranged strike within your reach of your weapon. This does not count for throwable weapon.\nWhen enemy creature stands up from prone condition by itself within reach of your weapon. ",
+        "longDescription": "Basic information\nOpportunity strike is always made with disadvantage and you have to precisely sense a creature or feel it (like grappling it).\nAny bonus thing you do after succesfull opportunity strike is made with the same penalty. \nYou can only do this reaction using a melee weapon strike, thrown or ranged strike does not work.\n\nYou are granted to make opportunity strike after one of these things happend :\n\nWhen enemy creature moves out of your reach of your weapon.\nWhen enemy creature casts a spell within reach of your weapon. \nWhen enemy makes a ranged strike within your reach of your weapon. This does not count for throwable weapon.\nWhen enemy creature stands up from {{prone}} condition by itself within reach of your weapon. ",
         "iconName": "opportunityStrike"
       },
       {
@@ -294,7 +294,7 @@
       {
         "name": "Magical shield",
         "shortDescription": "Reaction",
-        "longDescription": "Requires: Acces to mana or mana pool\n\nYou can use reaction to spend X mana to gain X*4 shield hit points.\nX is the mana spend. You can use as much mana as you want. \nYou also add one tier of cover against one strike if you use it when strike hits you or against reflex saving throw.",
+        "longDescription": "Requires: Access to mana or mana pool\n\nYou can use reaction to spend X mana to gain X*4 shield hit points.\nX is the mana spend. You can use as much mana as you want. \nYou also add one tier of cover against one strike if you use it when strike hits you or against reflex saving throw.",
         "iconName": "magicalShield"
       },
       {
@@ -335,7 +335,7 @@
       {
         "name": "Frenzied",
         "shortDescription": "",
-        "longDescription": "Frenzied creature is also Taunted even if its immune to that status. \nA frenzied creature will have to harm or include creature that made it frenzied in area of effect that will directly harm it while in this status.\nFrenzied creature needs to be able to observe  target that gave it this status or only notice it if its related to hearing sense.  If it cannot do that, Frenzied status won't work.\n\nThis status is related to psychic damage",
+        "longDescription": "Frenzied creature is also {{Taunted}} even if its immune to that status. \nA frenzied creature will have to harm or include creature that made it frenzied in area of effect that will directly harm it while in this status.\nFrenzied creature needs to be able to observe  target that gave it this status or only notice it if its related to hearing sense.  If it cannot do that, Frenzied status won't work.\n\nThis status is related to psychic damage",
         "iconName": "frenzied"
       },
       {
@@ -347,13 +347,13 @@
       {
         "name": "Restrained",
         "shortDescription": "",
-        "longDescription": "A restrained creature’s speed temporarly becomes 0, and it can’t benefit from any bonus to its speed.\nStrike rolls against the creature have advantage  and steal action against this creature is made with duble advantage.\nCreature is unable to perform somatic component for a spell and have disadvantage on strike rolls and athletics rolls\nCreature have clumsy status.\nCreature cannot block path by purpuse.",
+        "longDescription": "A restrained creature’s speed temporarly becomes 0, and it can’t benefit from any bonus to its speed.\nStrike rolls against the creature have advantage  and steal action against this creature is made with duble advantage.\nCreature is unable to perform somatic component for a spell and have disadvantage on strike rolls and athletics rolls\nCreature have {{clumsy}} status.\nCreature cannot block path by purpose.",
         "iconName": "restrained"
       },
       {
         "name": "Grappled",
         "shortDescription": "",
-        "longDescription": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the grappler is paralized, petrifyed stunned or unconcious.\nThe condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect,\n such as when a creature is hurled away by the thunderwave spell.\n\nWeapons that grapple creatures on range can still walk to the source of grapple, including natural ones like hands.\nIf you are grappled by natural weapon like calw, you can strike directly the grappler.\nGrappler can end that status using reaction or free action.",
+        "longDescription": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the grappler is {{paralyzed}}, {{petrified}}, {{stunned}} or {{unconscious}}.\nThe condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect,\n such as when a creature is hurled away by the thunderwave spell.\n\nWeapons that grapple creatures on range can still walk to the source of grapple, including natural ones like hands.\nIf you are grappled by natural weapon like calw, you can strike directly the grappler.\nGrappler can end that status using reaction or free action.",
         "iconName": "grappled"
       },
       {
@@ -369,10 +369,10 @@
         "iconName": "sickened"
       },
       {
-        "name": "Unconcious",
+        "name": "Unconscious",
         "shortDescription": "",
-        "longDescription": "An unconscious creature  cant take any action, can’t move or speak, and is mostly unaware of its surroundings\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature have disadvantage on perception rolls\nYou gain Assailable status\nYou also don't take into account your dexteity when calculating AC\n\nAsleep rule: If creature is unconcious due to the sleeping any damage or spending action touching it will wake it up.\nIt can be awake by loud noise with DC 5-14 perception roll based on hearing that can be rolled once per round. (dc may wary due to loudness)",
-        "iconName": "unconcious"
+        "longDescription": "An unconscious creature  cant take any action, can’t move or speak, and is mostly unaware of its surroundings\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature have disadvantage on perception rolls\nYou gain {{Assailable}} status\nYou also don't take into account your dexteity when calculating AC\n\nAsleep rule: If creature is unconcious due to the sleeping any damage or spending action touching it will wake it up.\nIt can be awake by loud noise with DC 5-14 perception roll based on hearing that can be rolled once per round. (dc may wary due to loudness)",
+        "iconName": "unconscious"
       },
       {
         "name": "Overstimulated",
@@ -389,7 +389,7 @@
       {
         "name": "Frightened",
         "shortDescription": "",
-        "longDescription": "Creature that is frightened will have trembling status (even if you are immune to trembling status) \nand can act normally only when its within  a place out of line of sight of status source.\nIt means you need to have full cover and peeking/looking into this line of sight will activate effect of status.\nCreature while frightened needs to do everything in its power to get out of line of sight of creature that made status to this creature.",
+        "longDescription": "Creature that is frightened will have {{trembling}} status (even if you are immune to trembling status) \nand can act normally only when its within  a place out of line of sight of status source.\nIt means you need to have full cover and peeking/looking into this line of sight will activate effect of status.\nCreature while frightened needs to do everything in its power to get out of line of sight of creature that made status to this creature.",
         "iconName": "frightened"
       },
       {
@@ -419,31 +419,31 @@
       {
         "name": "Dazzled",
         "shortDescription": "",
-        "longDescription": "Dazzled creature have 25% chance at start of a turn to speak only gibberish failing any  verbal comunication or order. Also it  fails to understand others.\nStrike rolls against the creature have advantage, and the creature’s strike rolls have disadvantage.\nCreature  have disadvantage on perception rolls.\nIf you get dazzled status on top of existing one it changes to stunned status and you lose dazzled status\n\nStatus is related to sonic damage",
+        "longDescription": "Dazzled creature have 25% chance at start of a turn to speak only gibberish failing any  verbal comunication or order. Also it  fails to understand others.\nStrike rolls against the creature have advantage, and the creature’s strike rolls have disadvantage.\nCreature  have disadvantage on perception rolls.\nIf you get dazzled status on top of existing one it changes to {{stunned}} status and you lose dazzled status\n\nStatus is related to sonic damage",
         "iconName": "dazzled"
       },
       {
         "name": "Stunned",
         "shortDescription": "",
-        "longDescription": "Stunned overrides dazzled\nA stunned creature cant take any action, can’t move, and can speak only gibberish failing any  verbal comunication or order.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature fails to understand others and have disadvantage on perception rolls.\nYou gain Assailable status\nWhen you lose stunned status you will get dazzled status \nYou also don't take into account your dexteity when calculating AC\n\nStatus is related to sonic damage",
+        "longDescription": "Stunned overrides {{dazzled}}\nA stunned creature cant take any action, can’t move, and can speak only gibberish failing any  verbal communication or order.\nThe creature automatically fails any strength or dexterity related rolls\nStrike rolls against the creature have advantage.\nCreature fails to understand others and have disadvantage on perception rolls.\nYou gain {{Assailable}} status\nWhen you lose {{stunned}} status you will get dazzled status \nYou also don't take into account your dexteity when calculating AC\n\nStatus is related to sonic damage",
         "iconName": "stunned"
       },
       {
         "name": "Petrified",
         "shortDescription": "",
-        "longDescription": "You cannot take any actions.\nA petrified creature is transformed, into a solid inanimate substance (usually stone).\n Its weight increases by a factor of ten, and it ceases aging.\nStrike rolls agains you are made with advantage\nThe creature automatically fails any  saving throws except will. \nCreature is restrained\nKreatura zyskuje resist na każe obrażenia wysokości 7 (oprócz sonic i death)\nDostaje vonurability na sonic damage = 5 i immunity na death damage\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.\n\nTurning into stone:\nWhile petrification is in motion you will be clumsy for the whole proces. \nNow you need to count fails. At the end of a turn you will have to repeat saving throw. Succeding DC will remove one fail from count.\nIf you fail again (Second fail) you gain restrained status and you have disadvantage against beeing tripped. \nYou can also spend whole action to damage yourself with slashing weapon to cut off your legs to imedeately free yourself, but you loose legs.... (half movement for crawling)\nOn the third fail you cannot use your hands.\nOn the final fourth fail you are petrified. ",
+        "longDescription": "You cannot take any actions.\nA petrified creature is transformed, into a solid inanimate substance (usually stone).\n Its weight increases by a factor of ten, and it ceases aging.\nStrike rolls agains you are made with advantage\nThe creature automatically fails any  saving throws except will. \nCreature is {{restrained}}\nKreatura zyskuje resist na każe obrażenia wysokości 7 (oprócz sonic i death)\nDostaje vonurability na sonic damage = 5 i immunity na death damage\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.\n\nTurning into stone:\nWhile petrification is in motion you will be {{clumsy}} for the whole proces. \nNow you need to count fails. At the end of a turn you will have to repeat saving throw. Succeding DC will remove one fail from count.\nIf you fail again (Second fail) you gain {{restrained}} status and you have disadvantage against beeing tripped. \nYou can also spend whole action to damage yourself with slashing weapon to cut off your legs to imedeately free yourself, but you loose legs.... (half movement for crawling)\nOn the third fail you cannot use your hands.\nOn the final fourth fail you are petrified. ",
         "iconName": "petrified"
       },
       {
         "name": "Numb",
         "shortDescription": "",
-        "longDescription": "Numb creature  can use either main action or bonus action.\nYou have clumsy status\n\nIf you get numb status on top of existing one it changes to paralized status and you lose numb status\nThis status is related to electric damage unless it comes from poison.",
+        "longDescription": "Numb creature  can use either main action or bonus action.\nYou have {{clumsy}} status\n\nIf you get numb status on top of existing one it changes to {{paralyzed}} status and you lose numb status\nThis status is related to electric damage unless it comes from poison.",
         "iconName": "numb"
       },
       {
         "name": "Paralyzed",
         "shortDescription": "",
-        "longDescription": "Paralize overrides Numb\nA paralyzed creature cant take any action and can’t move or speak.\nThe creature automatically fails any strength or dexterity related rolls\nAttack rolls against the creature have advantage.\nYou gain Assailable status\nWhen you lose paralized status you will get numb status \nYou also don't take into account your dexteity when calculating AC\n\nThis status is related to electric damage unless it comes from poison.",
+        "longDescription": "Paralyze overrides {{Numb}}\nA paralyzed creature cant take any action and can’t move or speak.\nThe creature automatically fails any strength or dexterity related rolls\nAttack rolls against the creature have advantage.\nYou gain {{Assailable}} status\nWhen you lose paralyzed status you will get {{numb}} status \nYou also don't take into account your dexteity when calculating AC\n\nThis status is related to electric damage unless it comes from poison.",
         "iconName": "paralyzed"
       },
       {
@@ -467,13 +467,13 @@
       {
         "name": "Hasted",
         "shortDescription": "",
-        "longDescription": "Creature have dubled movement\nCreature gains another main action or bonus action( can choose)\nCreature gains another interaction\nCreature have advantage on any dexterity related roll\nCreature gains +2 AC\n\nAfter haste status ends you creature must roll DC 20 fortitude save two times or get dazzled status. \nHasted status overrides swift status. When you have this status it cancels itself with clumsy status making them both not relevant when both are active.\nIt also gains enfeebled status for one minute. Creature can repeat saving throw at the end of a turn.",
+        "longDescription": "Creature have dubled movement\nCreature gains another main action or bonus action( can choose)\nCreature gains another interaction\nCreature have advantage on any dexterity related roll\nCreature gains +2 AC\n\nAfter haste status ends you creature must roll DC 20 fortitude save two times or get {{dazzled}} status. \nHasted status overrides {{swift}} status. When you have this status it cancels itself with {{clumsy}} status making them both not relevant when both are active.\nIt also gains {{enfeebled}} status for one minute. Creature can repeat saving throw at the end of a turn.",
         "iconName": "hasted"
       },
       {
         "name": "Confused",
         "shortDescription": "",
-        "longDescription": "A creature confused will have to roll 1d8\nConfused creature speak  fails to understand others.\nCreature have disadvantage on perception rolls. \nCreature will use opportunity strike on all ocasions.\n1-2     The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face.\nIf it can it has to use tumble threw.  \n3-6   The creature doesn’t move or take actions this turn.\n7-8   The creature uses its whole turn to do most harm to random closest creature (from start of a turn)\n\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage.",
+        "longDescription": "A creature confused will have to roll 1d8\nConfused creature speak  fails to understand others.\nCreature have disadvantage on perception rolls. \nCreature will use {{opportunity strike}} on all ocasions.\n1-2     The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face.\nIf it can it has to use {{tumble through}}.  \n3-6   The creature doesn’t move or take actions this turn.\n7-8   The creature uses its whole turn to do most harm to random closest creature (from start of a turn)\n\nEverytime creature gets damage can repeat saving throw if possible. Does not work on poisons. \n\nThis status is related to psychic damage.",
         "iconName": "confused"
       },
       {
@@ -491,13 +491,13 @@
       {
         "name": "Encumbered",
         "shortDescription": "",
-        "longDescription": "If first stage encumbered:\nYou are clumsy\n\nIf second stage encumbered:\nYou gain clumsy status\nNo movement and jump is impossible\nYou automatically fail reflex saves",
+        "longDescription": "If first stage encumbered:\nYou are {{clumsy}}\n\nIf second stage encumbered:\nYou gain {{clumsy}} status\nNo movement and jump is impossible\nYou automatically fail reflex saves",
         "iconName": "encumbered"
       },
       {
         "name": "Stupefied",
         "shortDescription": "",
-        "longDescription": "Creature that is stupedied will have disadvantage on any wisdom, charisma and inteligence related roll.\nAlso stupefied creature will have 50% chance to fail casting spell wasting an appropriate action (not spellslots).\n\nThis status is related to psychic damage.",
+        "longDescription": "Creature that is stupefied will have disadvantage on any wisdom, charisma and intelligence related roll.\nAlso stupefied creature will have 50% chance to fail casting spell wasting an appropriate action (not spellslots).\n\nThis status is related to psychic damage.",
         "iconName": "stupefied"
       },
       {
@@ -521,25 +521,25 @@
       {
         "name": "Exhausted",
         "shortDescription": "",
-        "longDescription": "This status can stack, only one exhaustion stack is removed when you longrest\n(Optional rule) All of exhaustion stacks are removed on longrest  \nThis status grants:\nI stack:\nDoomed 1 status per exhaused status.\nII stacks: \nTired status \nIII stacks: \nYou have halucinations from time to time (flavour)",
+        "longDescription": "This status can stack, only one exhaustion stack is removed when you long rest\n(Optional rule) All of exhaustion stacks are removed on long rest  \nThis status grants:\nI stack:\n{{Doomed}} 1 status per exhausted status.\nII stacks: \n{{Tired}} status \nIII stacks: \nYou have halucinations from time to time (flavour)",
         "iconName": "tired"
       },
       {
         "name": "Empowered",
         "shortDescription": "",
-        "longDescription": "Creature that is Empowered will have advantage on  any strength or constitution related roll.\nCreature half maximum bulk (rounded down) is added before any calculation is made.\nCreature canot deal less damage than avarage on weapon damage dices (rounded down)\nCreature jump is dubled (rounded down)\nWhen you have this status it cancels itself with enfeebled status making them both not relevant when both are active.",
+        "longDescription": "Creature that is Empowered will have advantage on  any strength or constitution related roll.\nCreature half maximum bulk (rounded down) is added before any calculation is made.\nCreature canot deal less damage than avarage on weapon damage dices (rounded down)\nCreature jump is dubled (rounded down)\nWhen you have this status it cancels itself with {{enfeebled}} status making them both not relevant when both are active.",
         "iconName": "empowered"
       },
       {
         "name": "Swift",
         "shortDescription": "",
-        "longDescription": "Creature that is swift will have advantage on reflex saving throws and any dexterity related roll.\nCreature movement id dubled.\nOpportunity strikes against you when you are not restrained or grappled are made with disadvantage.\nWhen you have this status it cancels itself with clumsy status making them both not relevant when both are active.",
+        "longDescription": "Creature that is swift will have advantage on reflex saving throws and any dexterity related roll.\nCreature movement id dubled.\n{{Opportunity strike}}s against you when you are not restrained or grappled are made with disadvantage.\nWhen you have this status it cancels itself with {{clumsy}} status making them both not relevant when both are active.",
         "iconName": "swift"
       },
       {
         "name": "Enlightened",
         "shortDescription": "",
-        "longDescription": "Creature with enlightened status gains advantage on inteligence and wisdom ceck and saving throw, only exception is perception, insight and survival check that requires sense\nWhen you have this status it cancels itself with stupefied status making them both not relevant when both are active.",
+        "longDescription": "Creature with enlightened status gains advantage on inteligence and wisdom ceck and saving throw, only exception is perception, insight and survival check that requires sense\nWhen you have this status it cancels itself with {{stupefied}} status making them both not relevant when both are active.",
         "iconName": "enlightened"
       },
       {
@@ -557,13 +557,13 @@
       {
         "name": "Vigorous",
         "shortDescription": "",
-        "longDescription": "Creature with vigorous status gains as much maximum life hit points as it has stacks of this status.\nWhen you gain vigorous status only the highest amout gained counts, If you have already 10 and you gain 4 it does nothing.\nThis status subtracts drained status first deleting both simultaneously and equally, because they collide, no mater how long thay last, they \"\"burn\"\" eachother.",
+        "longDescription": "Creature with vigorous status gains as much maximum life hit points as it has stacks of this status.\nWhen you gain vigorous status only the highest amout gained counts, If you have already 10 and you gain 4 it does nothing.\nThis status subtracts {{drained}} status first deleting both simultaneously and equally, because they collide, no mater how long thay last, they \"\"burn\"\" eachother.",
         "iconName": "vigorous"
       },
       {
         "name": "Tired",
         "shortDescription": "",
-        "longDescription": "You have disadvantage on everything untill you finish longrest or short rest (depending on how tired you are)\nYou have additional disadvantage against effects that put you to sleep.",
+        "longDescription": "You have disadvantage on everything until you finish long rest or short rest (depending on how tired you are)\nYou have additional disadvantage against effects that put you to sleep.",
         "iconName": "tired"
       },
       {
@@ -593,13 +593,13 @@
       {
         "name": "Electrified",
         "shortDescription": "",
-        "longDescription": "(examples) This status is aquired when touching cables with energy or elemenal grapples you\nWhen you get electrified you take indirect  electric damage  on end of a turn. (damage always depends and should be listed).\nElectrified does not stack and uses higher damage if presented.\nYou are also paralyzed, and can end effect at the end of a turn to attempt fortitude saving thow with disadvantage to cut yourself from source of energy (if possible)\nTo stop this status other you need to stop touching or getting touched by energy source. Pushing should work.\nBe carefull, grabbing electrified creature can make other creature electrified to.\nAnything that makes sense should work.\nAlternatively you can roll DC 20 fortitude saving throw at the end of a turn to get rid of this status.\nCreatures immune to electric damage are immune to this status. \n\nThis status is related to electric damage",
+        "longDescription": "(examples) This status is aquired when touching cables with energy or elemenal grapples you\nWhen you get electrified you take indirect  electric damage  on end of a turn. (damage always depends and should be listed).\nElectrified does not stack and uses higher damage if presented.\nYou are also {{paralyzed}}, and can end effect at the end of a turn to attempt fortitude saving thow with disadvantage to cut yourself from source of energy (if possible)\nTo stop this status other you need to stop touching or getting touched by energy source. Pushing should work.\nBe carefull, grabbing electrified creature can make other creature electrified to.\nAnything that makes sense should work.\nAlternatively you can roll DC 20 fortitude saving throw at the end of a turn to get rid of this status.\nCreatures immune to electric damage are immune to this status. \n\nThis status is related to electric damage",
         "iconName": "electrified"
       },
       {
         "name": "Dissolving",
         "shortDescription": "",
-        "longDescription": "When you dissolve you take indirect acid damage on end of a turn. (damage always depends and should be listed).\nDissolving does not stack and uses higher damage if presented.\nYou get enfeebled status.\nTo stop this status other you need to submerge affecting bodypart in water or wait one minute (getting again status resets timer)\nAlternatively you can roll DC 20 fortitude saving throw at the end of a turn to get rid of this status.\n\nThis status is related to acid damage",
+        "longDescription": "When you dissolve you take indirect acid damage on end of a turn. (damage always depends and should be listed).\nDissolving does not stack and uses higher damage if presented.\nYou get {{enfeebled}} status.\nTo stop this status other you need to submerge affecting bodypart in water or wait one minute (getting again status resets timer)\nAlternatively you can roll DC 20 fortitude saving throw at the end of a turn to get rid of this status.\n\nThis status is related to acid damage",
         "iconName": "dissolving"
       },
       {
@@ -611,13 +611,13 @@
       {
         "name": "Oiled",
         "shortDescription": "",
-        "longDescription": "When you are oiled you are vonurable  to fire damage and have disadvantages to any fire related roll. \nYou also have resistance  acid damage equal to 5 and have advantage to any acid related roll. \nOiled creature depending on amount of oil will have its speed reduced by half ( rounded up) and cannot fly. \nGetting fire damage gives burning status (5 fire damage).\nWhile oiled you have 50/50% chance to extinguish yourself with rolling on ground and water extinguishes you only when completly submerged. \nIf you are oiled and you extinguish yourself from burning oiled is removed. \nYou need to wash all oil from you. It takes 10 minutes.",
+        "longDescription": "When you are oiled you are vonurable  to fire damage and have disadvantages to any fire related roll. \nYou also have resistance  acid damage equal to 5 and have advantage to any acid related roll. \nOiled creature depending on amount of oil will have its speed reduced by half ( rounded up) and cannot fly. \nGetting fire damage gives {{burning}} status (5 fire damage).\nWhile oiled you have 50/50% chance to extinguish yourself with rolling on ground and water extinguishes you only when completly submerged. \nIf you are oiled and you extinguish yourself from burning oiled is removed. \nYou need to wash all oil from you. It takes 10 minutes.",
         "iconName": "oiled"
       },
       {
         "name": "Assailable",
         "shortDescription": "",
-        "longDescription": "You are either sleeping or taken hostage and because of life points and damage rulings a special rule is made for special moments of vonurability like\nhaving gun to your head or blade to your throat. To get that status you have to be very defenceless.\nThis status can be given by unconcious, paralized or stunned status or by restraining or grappling creature and  spending 1 action to enable this staus\nfor you to benefit. Every creature who wants to benefit from this status will have to spend that action and precisely sense it like with vision or touch.\nLosing all those statuses or precise sense in some cases will free creature from such state.\n\n\nIn this state you get 2x more direct damage  (stacks with critical hits)\nCreatures that causes you to be assailable have advantage on their strikes against you.",
+        "longDescription": "You are either sleeping or taken hostage and because of life points and damage rulings a special rule is made for special moments of vonurability like\nhaving gun to your head or blade to your throat. To get that status you have to be very defenceless.\nThis status can be given by {{unconscious}}, {{paralyzed}} or {{stunned}} status or by restraining or grappling creature and  spending 1 action to enable this staus\nfor you to benefit. Every creature who wants to benefit from this status will have to spend that action and precisely sense it like with vision or touch.\nLosing all those statuses or precise sense in some cases will free creature from such state.\n\n\nIn this state you get 2x more direct damage  (stacks with critical hits)\nCreatures that causes you to be assailable have advantage on their strikes against you.",
         "iconName": "assailable"
       }
     ]

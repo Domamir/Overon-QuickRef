@@ -3,10 +3,9 @@ import ElementCard from "./ElementCard";
 import ElementInfoWindow from "./ElementInfoWindow";
 import {useMemo, useState} from 'react';
 import '../CSS/ElementsCollection.css';
-import elementInfoWindow from "./ElementInfoWindow";
 
 function ElementsCollection({name, restriction, description, groupIconPath, groupColor, isDarkMode}) {
-    const [elementInfoWindowData, setElementInfoWindowData] = useState({ isOpen: false, name: '', shortDescription: '', longDescription: '' });
+    const [windowStack, setWindowStack] = useState([]);
     const collator = useMemo(() => new Intl.Collator('pl', {sensitivity: 'base'}),[])
 
     const sortedElements = useMemo(() => {
@@ -18,16 +17,15 @@ function ElementsCollection({name, restriction, description, groupIconPath, grou
     }, [name, collator])
 
     const handleButtonClick = (item) => {
-        setElementInfoWindowData({
-            isOpen: true,
-            name: item.name,
-            shortDescription: item.shortDescription,
-            longDescription: item.longDescription
-        });
+        setWindowStack([{...item, groupColor}]);
     };
 
-    const closeElementInfoWindow = () => {
-        setElementInfoWindowData({ isOpen: false, name: '', shortDescription: '', longDescription: '' });
+    const handleReferenceClick = (item) => {
+        setWindowStack(prev => [...prev, item]);
+    };
+
+    const closeTopWindow = () => {
+        setWindowStack(prev => prev.slice(0, -1));
     };
 
     const backgroundColor = groupColor || '#f0f0f0';
@@ -59,17 +57,18 @@ function ElementsCollection({name, restriction, description, groupIconPath, grou
                     </div>
                 </div>
             </div>
-            {elementInfoWindow && (
+            {windowStack.map((item, index) => (
                 <ElementInfoWindow
-                    isOpen={elementInfoWindowData.isOpen}
-                    onClose={closeElementInfoWindow}
-                    name={elementInfoWindowData.name}
-                    shortDescription={elementInfoWindowData.shortDescription}
-                    longDescription={elementInfoWindowData.longDescription}
-                    groupColor={groupColor}
+                    key={`${item.name}-${index}`}
+                    onClose={closeTopWindow}
+                    onReferenceClick={handleReferenceClick}
+                    name={item.name}
+                    shortDescription={item.shortDescription}
+                    longDescription={item.longDescription}
+                    groupColor={item.groupColor}
                     isDarkMode={isDarkMode}
                 />
-            )}
+            ))}
         </div>
     );
 }
