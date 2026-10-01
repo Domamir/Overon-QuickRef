@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Overon-QuickRef/static/css/main.efeb0bf1.css",
-    "main.js": "/Overon-QuickRef/static/js/main.ae31bd0b.js",
+    "main.css": "/Overon-QuickRef/static/css/main.b5da3d0c.css",
+    "main.js": "/Overon-QuickRef/static/js/main.2043389d.js",
     "static/js/453.802eaaba.chunk.js": "/Overon-QuickRef/static/js/453.802eaaba.chunk.js",
     "static/media/swords.png": "/Overon-QuickRef/static/media/swords.329de75fd661f37eb0bd.png",
     "static/media/skull.png": "/Overon-QuickRef/static/media/skull.d76fe5d37105eff336ad.png",
     "index.html": "/Overon-QuickRef/index.html",
-    "main.efeb0bf1.css.map": "/Overon-QuickRef/static/css/main.efeb0bf1.css.map",
-    "main.ae31bd0b.js.map": "/Overon-QuickRef/static/js/main.ae31bd0b.js.map",
+    "main.b5da3d0c.css.map": "/Overon-QuickRef/static/css/main.b5da3d0c.css.map",
+    "main.2043389d.js.map": "/Overon-QuickRef/static/js/main.2043389d.js.map",
     "453.802eaaba.chunk.js.map": "/Overon-QuickRef/static/js/453.802eaaba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efeb0bf1.css",
-    "static/js/main.ae31bd0b.js"
+    "static/css/main.b5da3d0c.css",
+    "static/js/main.2043389d.js"
   ]
 }
